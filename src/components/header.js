@@ -20,9 +20,9 @@ import React from 'react'
       <div className="panel">
         <Icon icon="material-symbols:grid-view" />
         <Icon icon="mdi:sort" style={{marginLeft: "500px"}} />
-        <h6>Sort</h6>
+        <h6 style={{marginRight:"50px"}}>Sort</h6>
         <Icon icon="material-symbols:filter-alt" />
-        <h6>Filter</h6>
+        <h6 style={{marginRight:"50px"}}>Filter</h6>
       </div>
     );
   };
