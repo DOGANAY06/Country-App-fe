@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   overflow: scroll;
-  height: 300px; /* belirli bir yükseklik ayarlayın */
+  height: 100vh;/* belirli bir yükseklik ayarlayın */
   width: 60%; /* belirli bir genişlik ayarlayın */
   margin: auto; /* sayfa ortalamak için */
   background-color: #f5f5f5; /* arkaplan rengi */
@@ -36,6 +36,8 @@
 .search input {
   border: none;
   flex: 1;
+  outline: 0;
+  border-radius: 0px;
 }
 
 .panel {
