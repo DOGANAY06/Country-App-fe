@@ -1,0 +1,2925 @@
+{
+    "AD": {
+        "name": "Andorrax",
+        "native": "Andorra",
+        "phone": "376",
+        "continent": "EU",
+        "capital": "Andorra la Vella",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/AD.svg",
+        "languages": [
+            "ca"
+        ]
+    },
+    "AE": {
+        "name": "United Arab Emirates",
+        "native": "دولة الإمارات العربية المتحدة",
+        "phone": "971",
+        "continent": "AS",
+        "capital": "Abu Dhabi",
+        "currency": "AED",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/AE.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "AF": {
+        "name": "Afghanistan",
+        "native": "افغانستان",
+        "phone": "93",
+        "continent": "AS",
+        "capital": "Kabul",
+        "currency": "AFN",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/AF.svg",
+        "languages": [
+            "ps",
+            "uz",
+            "tk"
+        ]
+    },
+    "AG": {
+        "name": "Antigua and Barbuda",
+        "native": "Antigua and Barbuda",
+        "phone": "1268",
+        "continent": "NA",
+        "capital": "Saint John's",
+        "currency": "XCD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/AG.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "AI": {
+        "name": "Anguilla",
+        "native": "Anguilla",
+        "phone": "1264",
+        "continent": "NA",
+        "capital": "The Valley",
+        "currency": "XCD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/AI.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "AL": {
+        "name": "Albania",
+        "native": "Shqipëria",
+        "phone": "355",
+        "continent": "EU",
+        "capital": "Tirana",
+        "currency": "ALL",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/AL.svg",
+        "languages": [
+            "sq"
+        ]
+    },
+    "AM": {
+        "name": "Armenia",
+        "native": "Հայաստան",
+        "phone": "374",
+        "continent": "AS",
+        "capital": "Yerevan",
+        "currency": "AMD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/AM.svg",
+        "languages": [
+            "hy",
+            "ru"
+        ]
+    },
+    "AO": {
+        "name": "Angola",
+        "native": "Angola",
+        "phone": "244",
+        "continent": "AF",
+        "capital": "Luanda",
+        "currency": "AOA",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/AO.svg",
+        "languages": [
+            "pt"
+        ]
+    },
+    "AR": {
+        "name": "Argentina",
+        "native": "Argentina",
+        "phone": "54",
+        "continent": "SA",
+        "capital": "Buenos Aires",
+        "currency": "ARS",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/AR.svg",
+        "languages": [
+            "es",
+            "gn"
+        ]
+    },
+    "AS": {
+        "name": "American Samoa",
+        "native": "American Samoa",
+        "phone": "1684",
+        "continent": "OC",
+        "capital": "Pago Pago",
+        "currency": "USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/AS.svg",
+        "languages": [
+            "en",
+            "sm"
+        ]
+    },
+    "AT": {
+        "name": "Austria",
+        "native": "Österreich",
+        "phone": "43",
+        "continent": "EU",
+        "capital": "Vienna",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/AT.svg",
+        "languages": [
+            "de"
+        ]
+    },
+    "AU": {
+        "name": "Australia",
+        "native": "Australia",
+        "phone": "61",
+        "continent": "OC",
+        "capital": "Canberra",
+        "currency": "AUD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/AU.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "AW": {
+        "name": "Aruba",
+        "native": "Aruba",
+        "phone": "297",
+        "continent": "NA",
+        "capital": "Oranjestad",
+        "currency": "AWG",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/AW.svg",
+        "languages": [
+            "nl",
+            "pa"
+        ]
+    },
+    "AX": {
+        "name": "Åland",
+        "native": "Åland",
+        "phone": "358",
+        "continent": "EU",
+        "capital": "Mariehamn",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/AX.svg",
+        "languages": [
+            "sv"
+        ]
+    },
+    "AZ": {
+        "name": "Azerbaijan",
+        "native": "Azərbaycan",
+        "phone": "994",
+        "continent": "AS",
+        "capital": "Baku",
+        "currency": "AZN",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/AZ.svg",
+        "languages": [
+            "az"
+        ]
+    },
+    "BA": {
+        "name": "Bosnia and Herzegovina",
+        "native": "Bosna i Hercegovina",
+        "phone": "387",
+        "continent": "EU",
+        "capital": "Sarajevo",
+        "currency": "BAM",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BA.svg",
+        "languages": [
+            "bs",
+            "hr",
+            "sr"
+        ]
+    },
+    "BB": {
+        "name": "Barbados",
+        "native": "Barbados",
+        "phone": "1246",
+        "continent": "NA",
+        "capital": "Bridgetown",
+        "currency": "BBD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BB.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "BD": {
+        "name": "Bangladesh",
+        "native": "Bangladesh",
+        "phone": "880",
+        "continent": "AS",
+        "capital": "Dhaka",
+        "currency": "BDT",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BD.svg",
+        "languages": [
+            "bn"
+        ]
+    },
+    "BE": {
+        "name": "Belgium",
+        "native": "België",
+        "phone": "32",
+        "continent": "EU",
+        "capital": "Brussels",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BE.svg",
+        "languages": [
+            "nl",
+            "fr",
+            "de"
+        ]
+    },
+    "BF": {
+        "name": "Burkina Faso",
+        "native": "Burkina Faso",
+        "phone": "226",
+        "continent": "AF",
+        "capital": "Ouagadougou",
+        "currency": "XOF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BF.svg",
+        "languages": [
+            "fr",
+            "ff"
+        ]
+    },
+    "BG": {
+        "name": "Bulgaria",
+        "native": "България",
+        "phone": "359",
+        "continent": "EU",
+        "capital": "Sofia",
+        "currency": "BGN",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BG.svg",
+        "languages": [
+            "bg"
+        ]
+    },
+    "BH": {
+        "name": "Bahrain",
+        "native": "‏البحرين",
+        "phone": "973",
+        "continent": "AS",
+        "capital": "Manama",
+        "currency": "BHD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BH.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "BI": {
+        "name": "Burundi",
+        "native": "Burundi",
+        "phone": "257",
+        "continent": "AF",
+        "capital": "Bujumbura",
+        "currency": "BIF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BI.svg",
+        "languages": [
+            "fr",
+            "rn"
+        ]
+    },
+    "BJ": {
+        "name": "Benin",
+        "native": "Bénin",
+        "phone": "229",
+        "continent": "AF",
+        "capital": "Porto-Novo",
+        "currency": "XOF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BJ.svg",
+        "languages": [
+            "fr"
+        ]
+    },
+    "BL": {
+        "name": "Saint Barthélemy",
+        "native": "Saint-Barthélemy",
+        "phone": "590",
+        "continent": "NA",
+        "capital": "Gustavia",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BL.svg",
+        "languages": [
+            "fr"
+        ]
+    },
+    "BM": {
+        "name": "Bermuda",
+        "native": "Bermuda",
+        "phone": "1441",
+        "continent": "NA",
+        "capital": "Hamilton",
+        "currency": "BMD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BM.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "BN": {
+        "name": "Brunei",
+        "native": "Negara Brunei Darussalam",
+        "phone": "673",
+        "continent": "AS",
+        "capital": "Bandar Seri Begawan",
+        "currency": "BND",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BN.svg",
+        "languages": [
+            "ms"
+        ]
+    },
+    "BO": {
+        "name": "Bolivia",
+        "native": "Bolivia",
+        "phone": "591",
+        "continent": "SA",
+        "capital": "Sucre",
+        "currency": "BOB,BOV",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BO.svg",
+        "languages": [
+            "es",
+            "ay",
+            "qu"
+        ]
+    },
+    "BQ": {
+        "name": "Bonaire",
+        "native": "Bonaire",
+        "phone": "5997",
+        "continent": "NA",
+        "capital": "Kralendijk",
+        "currency": "USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BQ.svg",
+        "languages": [
+            "nl"
+        ]
+    },
+    "BR": {
+        "name": "Brazil",
+        "native": "Brasil",
+        "phone": "55",
+        "continent": "SA",
+        "capital": "Brasília",
+        "currency": "BRL",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BR.svg",
+        "languages": [
+            "pt"
+        ]
+    },
+    "BS": {
+        "name": "Bahamas",
+        "native": "Bahamas",
+        "phone": "1242",
+        "continent": "NA",
+        "capital": "Nassau",
+        "currency": "BSD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BS.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "BT": {
+        "name": "Bhutan",
+        "native": "ʼbrug-yul",
+        "phone": "975",
+        "continent": "AS",
+        "capital": "Thimphu",
+        "currency": "BTN,INR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BT.svg",
+        "languages": [
+            "dz"
+        ]
+    },
+    "BW": {
+        "name": "Botswana",
+        "native": "Botswana",
+        "phone": "267",
+        "continent": "AF",
+        "capital": "Gaborone",
+        "currency": "BWP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BW.svg",
+        "languages": [
+            "en",
+            "tn"
+        ]
+    },
+    "BY": {
+        "name": "Belarus",
+        "native": "Белару́сь",
+        "phone": "375",
+        "continent": "EU",
+        "capital": "Minsk",
+        "currency": "BYN",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BY.svg",
+        "languages": [
+            "be",
+            "ru"
+        ]
+    },
+    "BZ": {
+        "name": "Belize",
+        "native": "Belize",
+        "phone": "501",
+        "continent": "NA",
+        "capital": "Belmopan",
+        "currency": "BZD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/BZ.svg",
+        "languages": [
+            "en",
+            "es"
+        ]
+    },
+    "CA": {
+        "name": "Canada",
+        "native": "Canada",
+        "phone": "1",
+        "continent": "NA",
+        "capital": "Ottawa",
+        "currency": "CAD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CA.svg",
+        "languages": [
+            "en",
+            "fr"
+        ]
+    },
+    "CC": {
+        "name": "Cocos [Keeling] Islands",
+        "native": "Cocos (Keeling) Islands",
+        "phone": "61",
+        "continent": "AS",
+        "capital": "West Island",
+        "currency": "AUD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CC.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "CD": {
+        "name": "Democratic Republic of the Congo",
+        "native": "République démocratique du Congo",
+        "phone": "243",
+        "continent": "AF",
+        "capital": "Kinshasa",
+        "currency": "CDF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CD.svg",
+        "languages": [
+            "fr",
+            "ln",
+            "kg",
+            "sw",
+            "lu"
+        ]
+    },
+    "CF": {
+        "name": "Central African Republic",
+        "native": "Ködörösêse tî Bêafrîka",
+        "phone": "236",
+        "continent": "AF",
+        "capital": "Bangui",
+        "currency": "XAF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CF.svg",
+        "languages": [
+            "fr",
+            "sg"
+        ]
+    },
+    "CG": {
+        "name": "Republic of the Congo",
+        "native": "République du Congo",
+        "phone": "242",
+        "continent": "AF",
+        "capital": "Brazzaville",
+        "currency": "XAF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CG.svg",
+        "languages": [
+            "fr",
+            "ln"
+        ]
+    },
+    "CH": {
+        "name": "Switzerland",
+        "native": "Schweiz",
+        "phone": "41",
+        "continent": "EU",
+        "capital": "Bern",
+        "currency": "CHE,CHF,CHW",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CH.svg",
+        "languages": [
+            "de",
+            "fr",
+            "it"
+        ]
+    },
+    "CI": {
+        "name": "Ivory Coast",
+        "native": "Côte d'Ivoire",
+        "phone": "225",
+        "continent": "AF",
+        "capital": "Yamoussoukro",
+        "currency": "XOF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CI.svg",
+        "languages": [
+            "fr"
+        ]
+    },
+    "CK": {
+        "name": "Cook Islands",
+        "native": "Cook Islands",
+        "phone": "682",
+        "continent": "OC",
+        "capital": "Avarua",
+        "currency": "NZD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CK.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "CL": {
+        "name": "Chile",
+        "native": "Chile",
+        "phone": "56",
+        "continent": "SA",
+        "capital": "Santiago",
+        "currency": "CLF,CLP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CL.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "CM": {
+        "name": "Cameroon",
+        "native": "Cameroon",
+        "phone": "237",
+        "continent": "AF",
+        "capital": "Yaoundé",
+        "currency": "XAF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CM.svg",
+        "languages": [
+            "en",
+            "fr"
+        ]
+    },
+    "CN": {
+        "name": "China",
+        "native": "中国",
+        "phone": "86",
+        "continent": "AS",
+        "capital": "Beijing",
+        "currency": "CNY",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CN.svg",
+        "languages": [
+            "zh"
+        ]
+    },
+    "CO": {
+        "name": "Colombia",
+        "native": "Colombia",
+        "phone": "57",
+        "continent": "SA",
+        "capital": "Bogotá",
+        "currency": "COP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CO.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "CR": {
+        "name": "Costa Rica",
+        "native": "Costa Rica",
+        "phone": "506",
+        "continent": "NA",
+        "capital": "San José",
+        "currency": "CRC",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CR.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "CU": {
+        "name": "Cuba",
+        "native": "Cuba",
+        "phone": "53",
+        "continent": "NA",
+        "capital": "Havana",
+        "currency": "CUC,CUP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CU.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "CV": {
+        "name": "Cape Verde",
+        "native": "Cabo Verde",
+        "phone": "238",
+        "continent": "AF",
+        "capital": "Praia",
+        "currency": "CVE",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CV.svg",
+        "languages": [
+            "pt"
+        ]
+    },
+    "CW": {
+        "name": "Curacao",
+        "native": "Curaçao",
+        "phone": "5999",
+        "continent": "NA",
+        "capital": "Willemstad",
+        "currency": "ANG",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CW.svg",
+        "languages": [
+            "nl",
+            "pa",
+            "en"
+        ]
+    },
+    "CX": {
+        "name": "Christmas Island",
+        "native": "Christmas Island",
+        "phone": "61",
+        "continent": "AS",
+        "capital": "Flying Fish Cove",
+        "currency": "AUD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CX.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "CY": {
+        "name": "Cyprus",
+        "native": "Κύπρος",
+        "phone": "357",
+        "continent": "EU",
+        "capital": "Nicosia",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CY.svg",
+        "languages": [
+            "el",
+            "tr",
+            "hy"
+        ]
+    },
+    "CZ": {
+        "name": "Czech Republic",
+        "native": "Česká republika",
+        "phone": "420",
+        "continent": "EU",
+        "capital": "Prague",
+        "currency": "CZK",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/CZ.svg",
+        "languages": [
+            "cs",
+            "sk"
+        ]
+    },
+    "DE": {
+        "name": "Germany",
+        "native": "Deutschland",
+        "phone": "49",
+        "continent": "EU",
+        "capital": "Berlin",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/DE.svg",
+        "languages": [
+            "de"
+        ]
+    },
+    "DJ": {
+        "name": "Djibouti",
+        "native": "Djibouti",
+        "phone": "253",
+        "continent": "AF",
+        "capital": "Djibouti",
+        "currency": "DJF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/DJ.svg",
+        "languages": [
+            "fr",
+            "ar"
+        ]
+    },
+    "DK": {
+        "name": "Denmark",
+        "native": "Danmark",
+        "phone": "45",
+        "continent": "EU",
+        "capital": "Copenhagen",
+        "currency": "DKK",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/DK.svg",
+        "languages": [
+            "da"
+        ]
+    },
+    "DM": {
+        "name": "Dominica",
+        "native": "Dominica",
+        "phone": "1767",
+        "continent": "NA",
+        "capital": "Roseau",
+        "currency": "XCD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/DM.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "DO": {
+        "name": "Dominican Republic",
+        "native": "República Dominicana",
+        "phone": "1",
+        "continent": "NA",
+        "capital": "Santo Domingo",
+        "currency": "DOP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/DO.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "DZ": {
+        "name": "Algeria",
+        "native": "الجزائر",
+        "phone": "213",
+        "continent": "AF",
+        "capital": "Algiers",
+        "currency": "DZD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/DZ.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "EC": {
+        "name": "Ecuador",
+        "native": "Ecuador",
+        "phone": "593",
+        "continent": "SA",
+        "capital": "Quito",
+        "currency": "USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/EC.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "EE": {
+        "name": "Estonia",
+        "native": "Eesti",
+        "phone": "372",
+        "continent": "EU",
+        "capital": "Tallinn",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/EE.svg",
+        "languages": [
+            "et"
+        ]
+    },
+    "EG": {
+        "name": "Egypt",
+        "native": "مصر‎",
+        "phone": "20",
+        "continent": "AF",
+        "capital": "Cairo",
+        "currency": "EGP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/EG.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "EH": {
+        "name": "Western Sahara",
+        "native": "الصحراء الغربية",
+        "phone": "212",
+        "continent": "AF",
+        "capital": "El Aaiún",
+        "currency": "MAD,DZD,MRU",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/EH.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "ER": {
+        "name": "Eritrea",
+        "native": "ኤርትራ",
+        "phone": "291",
+        "continent": "AF",
+        "capital": "Asmara",
+        "currency": "ERN",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/ER.svg",
+        "languages": [
+            "ti",
+            "ar",
+            "en"
+        ]
+    },
+    "ES": {
+        "name": "Spain",
+        "native": "España",
+        "phone": "34",
+        "continent": "EU",
+        "capital": "Madrid",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/ES.svg",
+        "languages": [
+            "es",
+            "eu",
+            "ca",
+            "gl",
+            "oc"
+        ]
+    },
+    "ET": {
+        "name": "Ethiopia",
+        "native": "ኢትዮጵያ",
+        "phone": "251",
+        "continent": "AF",
+        "capital": "Addis Ababa",
+        "currency": "ETB",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/ET.svg",
+        "languages": [
+            "am"
+        ]
+    },
+    "FI": {
+        "name": "Finland",
+        "native": "Suomi",
+        "phone": "358",
+        "continent": "EU",
+        "capital": "Helsinki",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/FI.svg",
+        "languages": [
+            "fi",
+            "sv"
+        ]
+    },
+    "FJ": {
+        "name": "Fiji",
+        "native": "Fiji",
+        "phone": "679",
+        "continent": "OC",
+        "capital": "Suva",
+        "currency": "FJD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/FJ.svg",
+        "languages": [
+            "en",
+            "fj",
+            "hi",
+            "ur"
+        ]
+    },
+    "FK": {
+        "name": "Falkland Islands",
+        "native": "Falkland Islands",
+        "phone": "500",
+        "continent": "SA",
+        "capital": "Stanley",
+        "currency": "FKP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/FK.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "FM": {
+        "name": "Micronesia",
+        "native": "Micronesia",
+        "phone": "691",
+        "continent": "OC",
+        "capital": "Palikir",
+        "currency": "USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/FM.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "FO": {
+        "name": "Faroe Islands",
+        "native": "Føroyar",
+        "phone": "298",
+        "continent": "EU",
+        "capital": "Tórshavn",
+        "currency": "DKK",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/FO.svg",
+        "languages": [
+            "fo"
+        ]
+    },
+    "FR": {
+        "name": "France",
+        "native": "France",
+        "phone": "33",
+        "continent": "EU",
+        "capital": "Paris",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/FR.svg",
+        "languages": [
+            "fr"
+        ]
+    },
+    "GA": {
+        "name": "Gabon",
+        "native": "Gabon",
+        "phone": "241",
+        "continent": "AF",
+        "capital": "Libreville",
+        "currency": "XAF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GA.svg",
+        "languages": [
+            "fr"
+        ]
+    },
+    "GB": {
+        "name": "United Kingdom",
+        "native": "United Kingdom",
+        "phone": "44",
+        "continent": "EU",
+        "capital": "London",
+        "currency": "GBP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GB.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "GD": {
+        "name": "Grenada",
+        "native": "Grenada",
+        "phone": "1473",
+        "continent": "NA",
+        "capital": "St. George's",
+        "currency": "XCD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GD.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "GE": {
+        "name": "Georgia",
+        "native": "საქართველო",
+        "phone": "995",
+        "continent": "AS",
+        "capital": "Tbilisi",
+        "currency": "GEL",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GE.svg",
+        "languages": [
+            "ka"
+        ]
+    },
+    "GG": {
+        "name": "Guernsey",
+        "native": "Guernsey",
+        "phone": "44",
+        "continent": "EU",
+        "capital": "St. Peter Port",
+        "currency": "GBP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GG.svg",
+        "languages": [
+            "en",
+            "fr"
+        ]
+    },
+    "GH": {
+        "name": "Ghana",
+        "native": "Ghana",
+        "phone": "233",
+        "continent": "AF",
+        "capital": "Accra",
+        "currency": "GHS",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GH.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "GI": {
+        "name": "Gibraltar",
+        "native": "Gibraltar",
+        "phone": "350",
+        "continent": "EU",
+        "capital": "Gibraltar",
+        "currency": "GIP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GI.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "GL": {
+        "name": "Greenland",
+        "native": "Kalaallit Nunaat",
+        "phone": "299",
+        "continent": "NA",
+        "capital": "Nuuk",
+        "currency": "DKK",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GL.svg",
+        "languages": [
+            "kl"
+        ]
+    },
+    "GM": {
+        "name": "Gambia",
+        "native": "Gambia",
+        "phone": "220",
+        "continent": "AF",
+        "capital": "Banjul",
+        "currency": "GMD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GM.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "GN": {
+        "name": "Guinea",
+        "native": "Guinée",
+        "phone": "224",
+        "continent": "AF",
+        "capital": "Conakry",
+        "currency": "GNF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GN.svg",
+        "languages": [
+            "fr",
+            "ff"
+        ]
+    },
+    "GQ": {
+        "name": "Equatorial Guinea",
+        "native": "Guinea Ecuatorial",
+        "phone": "240",
+        "continent": "AF",
+        "capital": "Malabo",
+        "currency": "XAF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GQ.svg",
+        "languages": [
+            "es",
+            "fr"
+        ]
+    },
+    "GR": {
+        "name": "Greece",
+        "native": "Ελλάδα",
+        "phone": "30",
+        "continent": "EU",
+        "capital": "Athens",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GR.svg",
+        "languages": [
+            "el"
+        ]
+    },
+    "GT": {
+        "name": "Guatemala",
+        "native": "Guatemala",
+        "phone": "502",
+        "continent": "NA",
+        "capital": "Guatemala City",
+        "currency": "GTQ",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GT.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "GU": {
+        "name": "Guam",
+        "native": "Guam",
+        "phone": "1671",
+        "continent": "OC",
+        "capital": "Hagåtña",
+        "currency": "USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GU.svg",
+        "languages": [
+            "en",
+            "ch",
+            "es"
+        ]
+    },
+    "GW": {
+        "name": "Guinea-Bissau",
+        "native": "Guiné-Bissau",
+        "phone": "245",
+        "continent": "AF",
+        "capital": "Bissau",
+        "currency": "XOF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GW.svg",
+        "languages": [
+            "pt"
+        ]
+    },
+    "GY": {
+        "name": "Guyana",
+        "native": "Guyana",
+        "phone": "592",
+        "continent": "SA",
+        "capital": "Georgetown",
+        "currency": "GYD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/GY.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "HK": {
+        "name": "Hong Kong",
+        "native": "香港",
+        "phone": "852",
+        "continent": "AS",
+        "capital": "City of Victoria",
+        "currency": "HKD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/HK.svg",
+        "languages": [
+            "zh",
+            "en"
+        ]
+    },
+    "HN": {
+        "name": "Honduras",
+        "native": "Honduras",
+        "phone": "504",
+        "continent": "NA",
+        "capital": "Tegucigalpa",
+        "currency": "HNL",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/HN.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "HR": {
+        "name": "Croatia",
+        "native": "Hrvatska",
+        "phone": "385",
+        "continent": "EU",
+        "capital": "Zagreb",
+        "currency": "HRK",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/HR.svg",
+        "languages": [
+            "hr"
+        ]
+    },
+    "HT": {
+        "name": "Haiti",
+        "native": "Haïti",
+        "phone": "509",
+        "continent": "NA",
+        "capital": "Port-au-Prince",
+        "currency": "HTG,USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/HT.svg",
+        "languages": [
+            "fr",
+            "ht"
+        ]
+    },
+    "HU": {
+        "name": "Hungary",
+        "native": "Magyarország",
+        "phone": "36",
+        "continent": "EU",
+        "capital": "Budapest",
+        "currency": "HUF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/HU.svg",
+        "languages": [
+            "hu"
+        ]
+    },
+    "ID": {
+        "name": "Indonesia",
+        "native": "Indonesia",
+        "phone": "62",
+        "continent": "AS",
+        "capital": "Jakarta",
+        "currency": "IDR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/ID.svg",
+        "languages": [
+            "id"
+        ]
+    },
+    "IE": {
+        "name": "Ireland",
+        "native": "Éire",
+        "phone": "353",
+        "continent": "EU",
+        "capital": "Dublin",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/IE.svg",
+        "languages": [
+            "ga",
+            "en"
+        ]
+    },
+    "IL": {
+        "name": "Israel",
+        "native": "יִשְׂרָאֵל",
+        "phone": "972",
+        "continent": "AS",
+        "capital": "Jerusalem",
+        "currency": "ILS",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/IL.svg",
+        "languages": [
+            "he",
+            "ar"
+        ]
+    },
+    "IM": {
+        "name": "Isle of Man",
+        "native": "Isle of Man",
+        "phone": "44",
+        "continent": "EU",
+        "capital": "Douglas",
+        "currency": "GBP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/IM.svg",
+        "languages": [
+            "en",
+            "gv"
+        ]
+    },
+    "IN": {
+        "name": "India",
+        "native": "भारत",
+        "phone": "91",
+        "continent": "AS",
+        "capital": "New Delhi",
+        "currency": "INR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/IN.svg",
+        "languages": [
+            "hi",
+            "en"
+        ]
+    },
+    "IO": {
+        "name": "British Indian Ocean Territory",
+        "native": "British Indian Ocean Territory",
+        "phone": "246",
+        "continent": "AS",
+        "capital": "Diego Garcia",
+        "currency": "USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/IO.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "IQ": {
+        "name": "Iraq",
+        "native": "العراق",
+        "phone": "964",
+        "continent": "AS",
+        "capital": "Baghdad",
+        "currency": "IQD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/IQ.svg",
+        "languages": [
+            "ar",
+            "ku"
+        ]
+    },
+    "IR": {
+        "name": "Iran",
+        "native": "ایران",
+        "phone": "98",
+        "continent": "AS",
+        "capital": "Tehran",
+        "currency": "IRR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/IR.svg",
+        "languages": [
+            "fa"
+        ]
+    },
+    "IS": {
+        "name": "Iceland",
+        "native": "Ísland",
+        "phone": "354",
+        "continent": "EU",
+        "capital": "Reykjavik",
+        "currency": "ISK",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/IS.svg",
+        "languages": [
+            "is"
+        ]
+    },
+    "IT": {
+        "name": "Italy",
+        "native": "Italia",
+        "phone": "39",
+        "continent": "EU",
+        "capital": "Rome",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/IT.svg",
+        "languages": [
+            "it"
+        ]
+    },
+    "JE": {
+        "name": "Jersey",
+        "native": "Jersey",
+        "phone": "44",
+        "continent": "EU",
+        "capital": "Saint Helier",
+        "currency": "GBP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/JE.svg",
+        "languages": [
+            "en",
+            "fr"
+        ]
+    },
+    "JM": {
+        "name": "Jamaica",
+        "native": "Jamaica",
+        "phone": "1876",
+        "continent": "NA",
+        "capital": "Kingston",
+        "currency": "JMD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/JM.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "JO": {
+        "name": "Jordan",
+        "native": "الأردن",
+        "phone": "962",
+        "continent": "AS",
+        "capital": "Amman",
+        "currency": "JOD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/JO.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "JP": {
+        "name": "Japan",
+        "native": "日本",
+        "phone": "81",
+        "continent": "AS",
+        "capital": "Tokyo",
+        "currency": "JPY",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/JP.svg",
+        "languages": [
+            "ja"
+        ]
+    },
+    "KE": {
+        "name": "Kenya",
+        "native": "Kenya",
+        "phone": "254",
+        "continent": "AF",
+        "capital": "Nairobi",
+        "currency": "KES",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/KE.svg",
+        "languages": [
+            "en",
+            "sw"
+        ]
+    },
+    "KG": {
+        "name": "Kyrgyzstan",
+        "native": "Кыргызстан",
+        "phone": "996",
+        "continent": "AS",
+        "capital": "Bishkek",
+        "currency": "KGS",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/KG.svg",
+        "languages": [
+            "ky",
+            "ru"
+        ]
+    },
+    "KH": {
+        "name": "Cambodia",
+        "native": "Kâmpŭchéa",
+        "phone": "855",
+        "continent": "AS",
+        "capital": "Phnom Penh",
+        "currency": "KHR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/KH.svg",
+        "languages": [
+            "km"
+        ]
+    },
+    "KI": {
+        "name": "Kiribati",
+        "native": "Kiribati",
+        "phone": "686",
+        "continent": "OC",
+        "capital": "South Tarawa",
+        "currency": "AUD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/KI.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "KM": {
+        "name": "Comoros",
+        "native": "Komori",
+        "phone": "269",
+        "continent": "AF",
+        "capital": "Moroni",
+        "currency": "KMF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/KM.svg",
+        "languages": [
+            "ar",
+            "fr"
+        ]
+    },
+    "KN": {
+        "name": "Saint Kitts and Nevis",
+        "native": "Saint Kitts and Nevis",
+        "phone": "1869",
+        "continent": "NA",
+        "capital": "Basseterre",
+        "currency": "XCD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/KN.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "KP": {
+        "name": "North Korea",
+        "native": "북한",
+        "phone": "850",
+        "continent": "AS",
+        "capital": "Pyongyang",
+        "currency": "KPW",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/KP.svg",
+        "languages": [
+            "ko"
+        ]
+    },
+    "KR": {
+        "name": "South Korea",
+        "native": "대한민국",
+        "phone": "82",
+        "continent": "AS",
+        "capital": "Seoul",
+        "currency": "KRW",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/KR.svg",
+        "languages": [
+            "ko"
+        ]
+    },
+    "KW": {
+        "name": "Kuwait",
+        "native": "الكويت",
+        "phone": "965",
+        "continent": "AS",
+        "capital": "Kuwait City",
+        "currency": "KWD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/KW.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "KY": {
+        "name": "Cayman Islands",
+        "native": "Cayman Islands",
+        "phone": "1345",
+        "continent": "NA",
+        "capital": "George Town",
+        "currency": "KYD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/KY.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "KZ": {
+        "name": "Kazakhstan",
+        "native": "Қазақстан",
+        "phone": "7",
+        "continent": "AS",
+        "capital": "Astana",
+        "currency": "KZT",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/KZ.svg",
+        "languages": [
+            "kk",
+            "ru"
+        ]
+    },
+    "LA": {
+        "name": "Laos",
+        "native": "ສປປລາວ",
+        "phone": "856",
+        "continent": "AS",
+        "capital": "Vientiane",
+        "currency": "LAK",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/LA.svg",
+        "languages": [
+            "lo"
+        ]
+    },
+    "LB": {
+        "name": "Lebanon",
+        "native": "لبنان",
+        "phone": "961",
+        "continent": "AS",
+        "capital": "Beirut",
+        "currency": "LBP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/LB.svg",
+        "languages": [
+            "ar",
+            "fr"
+        ]
+    },
+    "LC": {
+        "name": "Saint Lucia",
+        "native": "Saint Lucia",
+        "phone": "1758",
+        "continent": "NA",
+        "capital": "Castries",
+        "currency": "XCD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/LC.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "LI": {
+        "name": "Liechtenstein",
+        "native": "Liechtenstein",
+        "phone": "423",
+        "continent": "EU",
+        "capital": "Vaduz",
+        "currency": "CHF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/LI.svg",
+        "languages": [
+            "de"
+        ]
+    },
+    "LK": {
+        "name": "Sri Lanka",
+        "native": "śrī laṃkāva",
+        "phone": "94",
+        "continent": "AS",
+        "capital": "Colombo",
+        "currency": "LKR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/LK.svg",
+        "languages": [
+            "si",
+            "ta"
+        ]
+    },
+    "LR": {
+        "name": "Liberia",
+        "native": "Liberia",
+        "phone": "231",
+        "continent": "AF",
+        "capital": "Monrovia",
+        "currency": "LRD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/LR.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "LS": {
+        "name": "Lesotho",
+        "native": "Lesotho",
+        "phone": "266",
+        "continent": "AF",
+        "capital": "Maseru",
+        "currency": "LSL,ZAR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/LS.svg",
+        "languages": [
+            "en",
+            "st"
+        ]
+    },
+    "LT": {
+        "name": "Lithuania",
+        "native": "Lietuva",
+        "phone": "370",
+        "continent": "EU",
+        "capital": "Vilnius",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/LT.svg",
+        "languages": [
+            "lt"
+        ]
+    },
+    "LU": {
+        "name": "Luxembourg",
+        "native": "Luxembourg",
+        "phone": "352",
+        "continent": "EU",
+        "capital": "Luxembourg",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/LU.svg",
+        "languages": [
+            "fr",
+            "de",
+            "lb"
+        ]
+    },
+    "LV": {
+        "name": "Latvia",
+        "native": "Latvija",
+        "phone": "371",
+        "continent": "EU",
+        "capital": "Riga",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/LV.svg",
+        "languages": [
+            "lv"
+        ]
+    },
+    "LY": {
+        "name": "Libya",
+        "native": "‏ليبيا",
+        "phone": "218",
+        "continent": "AF",
+        "capital": "Tripoli",
+        "currency": "LYD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/LY.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "MA": {
+        "name": "Morocco",
+        "native": "المغرب",
+        "phone": "212",
+        "continent": "AF",
+        "capital": "Rabat",
+        "currency": "MAD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MA.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "MC": {
+        "name": "Monaco",
+        "native": "Monaco",
+        "phone": "377",
+        "continent": "EU",
+        "capital": "Monaco",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MC.svg",
+        "languages": [
+            "fr"
+        ]
+    },
+    "MD": {
+        "name": "Moldova",
+        "native": "Moldova",
+        "phone": "373",
+        "continent": "EU",
+        "capital": "Chișinău",
+        "currency": "MDL",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MD.svg",
+        "languages": [
+            "ro"
+        ]
+    },
+    "ME": {
+        "name": "Montenegro",
+        "native": "Црна Гора",
+        "phone": "382",
+        "continent": "EU",
+        "capital": "Podgorica",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/ME.svg",
+        "languages": [
+            "sr",
+            "bs",
+            "sq",
+            "hr"
+        ]
+    },
+    "MG": {
+        "name": "Madagascar",
+        "native": "Madagasikara",
+        "phone": "261",
+        "continent": "AF",
+        "capital": "Antananarivo",
+        "currency": "MGA",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MG.svg",
+        "languages": [
+            "fr",
+            "mg"
+        ]
+    },
+    "MH": {
+        "name": "Marshall Islands",
+        "native": "M̧ajeļ",
+        "phone": "692",
+        "continent": "OC",
+        "capital": "Majuro",
+        "currency": "USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MH.svg",
+        "languages": [
+            "en",
+            "mh"
+        ]
+    },
+    "MK": {
+        "name": "North Macedonia",
+        "native": "Северна Македонија",
+        "phone": "389",
+        "continent": "EU",
+        "capital": "Skopje",
+        "currency": "MKD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MK.svg",
+        "languages": [
+            "mk"
+        ]
+    },
+    "ML": {
+        "name": "Mali",
+        "native": "Mali",
+        "phone": "223",
+        "continent": "AF",
+        "capital": "Bamako",
+        "currency": "XOF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/ML.svg",
+        "languages": [
+            "fr"
+        ]
+    },
+    "MM": {
+        "name": "Myanmar [Burma]",
+        "native": "မြန်မာ",
+        "phone": "95",
+        "continent": "AS",
+        "capital": "Naypyidaw",
+        "currency": "MMK",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MM.svg",
+        "languages": [
+            "my"
+        ]
+    },
+    "MN": {
+        "name": "Mongolia",
+        "native": "Монгол улс",
+        "phone": "976",
+        "continent": "AS",
+        "capital": "Ulan Bator",
+        "currency": "MNT",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MN.svg",
+        "languages": [
+            "mn"
+        ]
+    },
+    "MO": {
+        "name": "Macao",
+        "native": "澳門",
+        "phone": "853",
+        "continent": "AS",
+        "capital": "",
+        "currency": "MOP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MO.svg",
+        "languages": [
+            "zh",
+            "pt"
+        ]
+    },
+    "MP": {
+        "name": "Northern Mariana Islands",
+        "native": "Northern Mariana Islands",
+        "phone": "1670",
+        "continent": "OC",
+        "capital": "Saipan",
+        "currency": "USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MP.svg",
+        "languages": [
+            "en",
+            "ch"
+        ]
+    },
+    "MQ": {
+        "name": "Martinique",
+        "native": "Martinique",
+        "phone": "596",
+        "continent": "NA",
+        "capital": "Fort-de-France",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MQ.svg",
+        "languages": [
+            "fr"
+        ]
+    },
+    "MR": {
+        "name": "Mauritania",
+        "native": "موريتانيا",
+        "phone": "222",
+        "continent": "AF",
+        "capital": "Nouakchott",
+        "currency": "MRU",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MR.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "MS": {
+        "name": "Montserrat",
+        "native": "Montserrat",
+        "phone": "1664",
+        "continent": "NA",
+        "capital": "Plymouth",
+        "currency": "XCD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MS.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "MT": {
+        "name": "Malta",
+        "native": "Malta",
+        "phone": "356",
+        "continent": "EU",
+        "capital": "Valletta",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MT.svg",
+        "languages": [
+            "mt",
+            "en"
+        ]
+    },
+    "MU": {
+        "name": "Mauritius",
+        "native": "Maurice",
+        "phone": "230",
+        "continent": "AF",
+        "capital": "Port Louis",
+        "currency": "MUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MU.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "MV": {
+        "name": "Maldives",
+        "native": "Maldives",
+        "phone": "960",
+        "continent": "AS",
+        "capital": "Malé",
+        "currency": "MVR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MV.svg",
+        "languages": [
+            "dv"
+        ]
+    },
+    "MW": {
+        "name": "Malawi",
+        "native": "Malawi",
+        "phone": "265",
+        "continent": "AF",
+        "capital": "Lilongwe",
+        "currency": "MWK",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MW.svg",
+        "languages": [
+            "en",
+            "ny"
+        ]
+    },
+    "MX": {
+        "name": "Mexico",
+        "native": "México",
+        "phone": "52",
+        "continent": "NA",
+        "capital": "Mexico City",
+        "currency": "MXN",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MX.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "MY": {
+        "name": "Malaysia",
+        "native": "Malaysia",
+        "phone": "60",
+        "continent": "AS",
+        "capital": "Kuala Lumpur",
+        "currency": "MYR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MY.svg",
+        "languages": [
+            "ms"
+        ]
+    },
+    "MZ": {
+        "name": "Mozambique",
+        "native": "Moçambique",
+        "phone": "258",
+        "continent": "AF",
+        "capital": "Maputo",
+        "currency": "MZN",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/MZ.svg",
+        "languages": [
+            "pt"
+        ]
+    },
+    "NA": {
+        "name": "Namibia",
+        "native": "Namibia",
+        "phone": "264",
+        "continent": "AF",
+        "capital": "Windhoek",
+        "currency": "NAD,ZAR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/NA.svg",
+        "languages": [
+            "en",
+            "af"
+        ]
+    },
+    "NE": {
+        "name": "Niger",
+        "native": "Niger",
+        "phone": "227",
+        "continent": "AF",
+        "capital": "Niamey",
+        "currency": "XOF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/NE.svg",
+        "languages": [
+            "fr"
+        ]
+    },
+    "NF": {
+        "name": "Norfolk Island",
+        "native": "Norfolk Island",
+        "phone": "672",
+        "continent": "OC",
+        "capital": "Kingston",
+        "currency": "AUD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/NF.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "NG": {
+        "name": "Nigeria",
+        "native": "Nigeria",
+        "phone": "234",
+        "continent": "AF",
+        "capital": "Abuja",
+        "currency": "NGN",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/NG.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "NI": {
+        "name": "Nicaragua",
+        "native": "Nicaragua",
+        "phone": "505",
+        "continent": "NA",
+        "capital": "Managua",
+        "currency": "NIO",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/NI.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "NL": {
+        "name": "Netherlands",
+        "native": "Nederland",
+        "phone": "31",
+        "continent": "EU",
+        "capital": "Amsterdam",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/NL.svg",
+        "languages": [
+            "nl"
+        ]
+    },
+    "NO": {
+        "name": "Norway",
+        "native": "Norge",
+        "phone": "47",
+        "continent": "EU",
+        "capital": "Oslo",
+        "currency": "NOK",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/NO.svg",
+        "languages": [
+            "no",
+            "nb",
+            "nn"
+        ]
+    },
+    "NP": {
+        "name": "Nepal",
+        "native": "नपल",
+        "phone": "977",
+        "continent": "AS",
+        "capital": "Kathmandu",
+        "currency": "NPR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/NP.svg",
+        "languages": [
+            "ne"
+        ]
+    },
+    "NR": {
+        "name": "Nauru",
+        "native": "Nauru",
+        "phone": "674",
+        "continent": "OC",
+        "capital": "Yaren",
+        "currency": "AUD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/NR.svg",
+        "languages": [
+            "en",
+            "na"
+        ]
+    },
+    "NU": {
+        "name": "Niue",
+        "native": "Niuē",
+        "phone": "683",
+        "continent": "OC",
+        "capital": "Alofi",
+        "currency": "NZD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/NU.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "NZ": {
+        "name": "New Zealand",
+        "native": "New Zealand",
+        "phone": "64",
+        "continent": "OC",
+        "capital": "Wellington",
+        "currency": "NZD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/NZ.svg",
+        "languages": [
+            "en",
+            "mi"
+        ]
+    },
+    "OM": {
+        "name": "Oman",
+        "native": "عمان",
+        "phone": "968",
+        "continent": "AS",
+        "capital": "Muscat",
+        "currency": "OMR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/OM.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "PA": {
+        "name": "Panama",
+        "native": "Panamá",
+        "phone": "507",
+        "continent": "NA",
+        "capital": "Panama City",
+        "currency": "PAB,USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/PA.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "PE": {
+        "name": "Peru",
+        "native": "Perú",
+        "phone": "51",
+        "continent": "SA",
+        "capital": "Lima",
+        "currency": "PEN",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/PE.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "PF": {
+        "name": "French Polynesia",
+        "native": "Polynésie française",
+        "phone": "689",
+        "continent": "OC",
+        "capital": "Papeetē",
+        "currency": "XPF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/PF.svg",
+        "languages": [
+            "fr"
+        ]
+    },
+    "PG": {
+        "name": "Papua New Guinea",
+        "native": "Papua Niugini",
+        "phone": "675",
+        "continent": "OC",
+        "capital": "Port Moresby",
+        "currency": "PGK",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/PG.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "PH": {
+        "name": "Philippines",
+        "native": "Pilipinas",
+        "phone": "63",
+        "continent": "AS",
+        "capital": "Manila",
+        "currency": "PHP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/PH.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "PK": {
+        "name": "Pakistan",
+        "native": "Pakistan",
+        "phone": "92",
+        "continent": "AS",
+        "capital": "Islamabad",
+        "currency": "PKR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/PK.svg",
+        "languages": [
+            "en",
+            "ur"
+        ]
+    },
+    "PL": {
+        "name": "Poland",
+        "native": "Polska",
+        "phone": "48",
+        "continent": "EU",
+        "capital": "Warsaw",
+        "currency": "PLN",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/PL.svg",
+        "languages": [
+            "pl"
+        ]
+    },
+    "PN": {
+        "name": "Pitcairn Islands",
+        "native": "Pitcairn Islands",
+        "phone": "64",
+        "continent": "OC",
+        "capital": "Adamstown",
+        "currency": "NZD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/PN.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "PR": {
+        "name": "Puerto Rico",
+        "native": "Puerto Rico",
+        "phone": "1",
+        "continent": "NA",
+        "capital": "San Juan",
+        "currency": "USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/PR.svg",
+        "languages": [
+            "es",
+            "en"
+        ]
+    },
+    "PS": {
+        "name": "Palestine",
+        "native": "فلسطين",
+        "phone": "970",
+        "continent": "AS",
+        "capital": "Ramallah",
+        "currency": "ILS",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/PS.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "PT": {
+        "name": "Portugal",
+        "native": "Portugal",
+        "phone": "351",
+        "continent": "EU",
+        "capital": "Lisbon",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/PT.svg",
+        "languages": [
+            "pt"
+        ]
+    },
+    "PW": {
+        "name": "Palau",
+        "native": "Palau",
+        "phone": "680",
+        "continent": "OC",
+        "capital": "Ngerulmud",
+        "currency": "USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/PW.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "PY": {
+        "name": "Paraguay",
+        "native": "Paraguay",
+        "phone": "595",
+        "continent": "SA",
+        "capital": "Asunción",
+        "currency": "PYG",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/PY.svg",
+        "languages": [
+            "es",
+            "gn"
+        ]
+    },
+    "QA": {
+        "name": "Qatar",
+        "native": "قطر",
+        "phone": "974",
+        "continent": "AS",
+        "capital": "Doha",
+        "currency": "QAR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/QA.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "RO": {
+        "name": "Romania",
+        "native": "România",
+        "phone": "40",
+        "continent": "EU",
+        "capital": "Bucharest",
+        "currency": "RON",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/RO.svg",
+        "languages": [
+            "ro"
+        ]
+    },
+    "RS": {
+        "name": "Serbia",
+        "native": "Србија",
+        "phone": "381",
+        "continent": "EU",
+        "capital": "Belgrade",
+        "currency": "RSD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/RS.svg",
+        "languages": [
+            "sr"
+        ]
+    },
+    "RU": {
+        "name": "Russia",
+        "native": "Россия",
+        "phone": "7",
+        "continent": "EU",
+        "capital": "Moscow",
+        "currency": "RUB",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/RU.svg",
+        "languages": [
+            "ru"
+        ]
+    },
+    "RW": {
+        "name": "Rwanda",
+        "native": "Rwanda",
+        "phone": "250",
+        "continent": "AF",
+        "capital": "Kigali",
+        "currency": "RWF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/RW.svg",
+        "languages": [
+            "rw",
+            "en",
+            "fr"
+        ]
+    },
+    "SA": {
+        "name": "Saudi Arabia",
+        "native": "العربية السعودية",
+        "phone": "966",
+        "continent": "AS",
+        "capital": "Riyadh",
+        "currency": "SAR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SA.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "SB": {
+        "name": "Solomon Islands",
+        "native": "Solomon Islands",
+        "phone": "677",
+        "continent": "OC",
+        "capital": "Honiara",
+        "currency": "SBD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SB.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "SC": {
+        "name": "Seychelles",
+        "native": "Seychelles",
+        "phone": "248",
+        "continent": "AF",
+        "capital": "Victoria",
+        "currency": "SCR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SC.svg",
+        "languages": [
+            "fr",
+            "en"
+        ]
+    },
+    "SD": {
+        "name": "Sudan",
+        "native": "السودان",
+        "phone": "249",
+        "continent": "AF",
+        "capital": "Khartoum",
+        "currency": "SDG",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SD.svg",
+        "languages": [
+            "ar",
+            "en"
+        ]
+    },
+    "SE": {
+        "name": "Sweden",
+        "native": "Sverige",
+        "phone": "46",
+        "continent": "EU",
+        "capital": "Stockholm",
+        "currency": "SEK",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SE.svg",
+        "languages": [
+            "sv"
+        ]
+    },
+    "SG": {
+        "name": "Singapore",
+        "native": "Singapore",
+        "phone": "65",
+        "continent": "AS",
+        "capital": "Singapore",
+        "currency": "SGD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SG.svg",
+        "languages": [
+            "en",
+            "ms",
+            "ta",
+            "zh"
+        ]
+    },
+    "SI": {
+        "name": "Slovenia",
+        "native": "Slovenija",
+        "phone": "386",
+        "continent": "EU",
+        "capital": "Ljubljana",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SI.svg",
+        "languages": [
+            "sl"
+        ]
+    },
+    "SK": {
+        "name": "Slovakia",
+        "native": "Slovensko",
+        "phone": "421",
+        "continent": "EU",
+        "capital": "Bratislava",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SK.svg",
+        "languages": [
+            "sk"
+        ]
+    },
+    "SL": {
+        "name": "Sierra Leone",
+        "native": "Sierra Leone",
+        "phone": "232",
+        "continent": "AF",
+        "capital": "Freetown",
+        "currency": "SLL",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SL.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "SM": {
+        "name": "San Marino",
+        "native": "San Marino",
+        "phone": "378",
+        "continent": "EU",
+        "capital": "City of San Marino",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SM.svg",
+        "languages": [
+            "it"
+        ]
+    },
+    "SN": {
+        "name": "Senegal",
+        "native": "Sénégal",
+        "phone": "221",
+        "continent": "AF",
+        "capital": "Dakar",
+        "currency": "XOF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SN.svg",
+        "languages": [
+            "fr"
+        ]
+    },
+    "SO": {
+        "name": "Somalia",
+        "native": "Soomaaliya",
+        "phone": "252",
+        "continent": "AF",
+        "capital": "Mogadishu",
+        "currency": "SOS",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SO.svg",
+        "languages": [
+            "so",
+            "ar"
+        ]
+    },
+    "SR": {
+        "name": "Suriname",
+        "native": "Suriname",
+        "phone": "597",
+        "continent": "SA",
+        "capital": "Paramaribo",
+        "currency": "SRD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SR.svg",
+        "languages": [
+            "nl"
+        ]
+    },
+    "SS": {
+        "name": "South Sudan",
+        "native": "South Sudan",
+        "phone": "211",
+        "continent": "AF",
+        "capital": "Juba",
+        "currency": "SSP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SS.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "ST": {
+        "name": "São Tomé and Príncipe",
+        "native": "São Tomé e Príncipe",
+        "phone": "239",
+        "continent": "AF",
+        "capital": "São Tomé",
+        "currency": "STN",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/ST.svg",
+        "languages": [
+            "pt"
+        ]
+    },
+    "SV": {
+        "name": "El Salvador",
+        "native": "El Salvador",
+        "phone": "503",
+        "continent": "NA",
+        "capital": "San Salvador",
+        "currency": "SVC,USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SV.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "SX": {
+        "name": "Sint Maarten",
+        "native": "Sint Maarten",
+        "phone": "1721",
+        "continent": "NA",
+        "capital": "Philipsburg",
+        "currency": "ANG",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SX.svg",
+        "languages": [
+            "nl",
+            "en"
+        ]
+    },
+    "SY": {
+        "name": "Syria",
+        "native": "سوريا",
+        "phone": "963",
+        "continent": "AS",
+        "capital": "Damascus",
+        "currency": "SYP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SY.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "SZ": {
+        "name": "Swaziland",
+        "native": "Swaziland",
+        "phone": "268",
+        "continent": "AF",
+        "capital": "Lobamba",
+        "currency": "SZL",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/SZ.svg",
+        "languages": [
+            "en",
+            "ss"
+        ]
+    },
+    "TC": {
+        "name": "Turks and Caicos Islands",
+        "native": "Turks and Caicos Islands",
+        "phone": "1649",
+        "continent": "NA",
+        "capital": "Cockburn Town",
+        "currency": "USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/TC.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "TD": {
+        "name": "Chad",
+        "native": "Tchad",
+        "phone": "235",
+        "continent": "AF",
+        "capital": "N'Djamena",
+        "currency": "XAF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/TD.svg",
+        "languages": [
+            "fr",
+            "ar"
+        ]
+    },
+    "TG": {
+        "name": "Togo",
+        "native": "Togo",
+        "phone": "228",
+        "continent": "AF",
+        "capital": "Lomé",
+        "currency": "XOF",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/TG.svg",
+        "languages": [
+            "fr"
+        ]
+    },
+    "TH": {
+        "name": "Thailand",
+        "native": "ประเทศไทย",
+        "phone": "66",
+        "continent": "AS",
+        "capital": "Bangkok",
+        "currency": "THB",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/TH.svg",
+        "languages": [
+            "th"
+        ]
+    },
+    "TJ": {
+        "name": "Tajikistan",
+        "native": "Тоҷикистон",
+        "phone": "992",
+        "continent": "AS",
+        "capital": "Dushanbe",
+        "currency": "TJS",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/TJ.svg",
+        "languages": [
+            "tg",
+            "ru"
+        ]
+    },
+    "TK": {
+        "name": "Tokelau",
+        "native": "Tokelau",
+        "phone": "690",
+        "continent": "OC",
+        "capital": "Fakaofo",
+        "currency": "NZD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/TK.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "TL": {
+        "name": "East Timor",
+        "native": "Timor-Leste",
+        "phone": "670",
+        "continent": "OC",
+        "capital": "Dili",
+        "currency": "USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/TL.svg",
+        "languages": [
+            "pt"
+        ]
+    },
+    "TM": {
+        "name": "Turkmenistan",
+        "native": "Türkmenistan",
+        "phone": "993",
+        "continent": "AS",
+        "capital": "Ashgabat",
+        "currency": "TMT",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/TM.svg",
+        "languages": [
+            "tk",
+            "ru"
+        ]
+    },
+    "TN": {
+        "name": "Tunisia",
+        "native": "تونس",
+        "phone": "216",
+        "continent": "AF",
+        "capital": "Tunis",
+        "currency": "TND",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/TN.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "TO": {
+        "name": "Tonga",
+        "native": "Tonga",
+        "phone": "676",
+        "continent": "OC",
+        "capital": "Nuku'alofa",
+        "currency": "TOP",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/TO.svg",
+        "languages": [
+            "en",
+            "to"
+        ]
+    },
+    "TR": {
+        "name": "Turkey",
+        "native": "Türkiye",
+        "phone": "90",
+        "continent": "AS",
+        "capital": "Ankara",
+        "currency": "TRY",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/TR.svg",
+        "languages": [
+            "tr"
+        ]
+    },
+    "TT": {
+        "name": "Trinidad and Tobago",
+        "native": "Trinidad and Tobago",
+        "phone": "1868",
+        "continent": "NA",
+        "capital": "Port of Spain",
+        "currency": "TTD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/TT.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "TV": {
+        "name": "Tuvalu",
+        "native": "Tuvalu",
+        "phone": "688",
+        "continent": "OC",
+        "capital": "Funafuti",
+        "currency": "AUD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/TV.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "TW": {
+        "name": "Taiwan",
+        "native": "臺灣",
+        "phone": "886",
+        "continent": "AS",
+        "capital": "Taipei",
+        "currency": "TWD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/TW.svg",
+        "languages": [
+            "zh"
+        ]
+    },
+    "TZ": {
+        "name": "Tanzania",
+        "native": "Tanzania",
+        "phone": "255",
+        "continent": "AF",
+        "capital": "Dodoma",
+        "currency": "TZS",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/TZ.svg",
+        "languages": [
+            "sw",
+            "en"
+        ]
+    },
+    "UA": {
+        "name": "Ukraine",
+        "native": "Україна",
+        "phone": "380",
+        "continent": "EU",
+        "capital": "Kyiv",
+        "currency": "UAH",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/UA.svg",
+        "languages": [
+            "uk"
+        ]
+    },
+    "UG": {
+        "name": "Uganda",
+        "native": "Uganda",
+        "phone": "256",
+        "continent": "AF",
+        "capital": "Kampala",
+        "currency": "UGX",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/UG.svg",
+        "languages": [
+            "en",
+            "sw"
+        ]
+    },
+    "US": {
+        "name": "United States",
+        "native": "United States",
+        "phone": "1",
+        "continent": "NA",
+        "capital": "Washington D.C.",
+        "currency": "USD,USN,USS",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/US.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "UY": {
+        "name": "Uruguay",
+        "native": "Uruguay",
+        "phone": "598",
+        "continent": "SA",
+        "capital": "Montevideo",
+        "currency": "UYI,UYU",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/UY.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "UZ": {
+        "name": "Uzbekistan",
+        "native": "O‘zbekiston",
+        "phone": "998",
+        "continent": "AS",
+        "capital": "Tashkent",
+        "currency": "UZS",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/UZ.svg",
+        "languages": [
+            "uz",
+            "ru"
+        ]
+    },
+    "VA": {
+        "name": "Vatican City",
+        "native": "Vaticano",
+        "phone": "379",
+        "continent": "EU",
+        "capital": "Vatican City",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/VA.svg",
+        "languages": [
+            "it",
+            "la"
+        ]
+    },
+    "VC": {
+        "name": "Saint Vincent and the Grenadines",
+        "native": "Saint Vincent and the Grenadines",
+        "phone": "1784",
+        "continent": "NA",
+        "capital": "Kingstown",
+        "currency": "XCD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/VC.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "VE": {
+        "name": "Venezuela",
+        "native": "Venezuela",
+        "phone": "58",
+        "continent": "SA",
+        "capital": "Caracas",
+        "currency": "VES",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/VE.svg",
+        "languages": [
+            "es"
+        ]
+    },
+    "VG": {
+        "name": "British Virgin Islands",
+        "native": "British Virgin Islands",
+        "phone": "1284",
+        "continent": "NA",
+        "capital": "Road Town",
+        "currency": "USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/VG.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "VI": {
+        "name": "U.S. Virgin Islands",
+        "native": "United States Virgin Islands",
+        "phone": "1340",
+        "continent": "NA",
+        "capital": "Charlotte Amalie",
+        "currency": "USD",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/VI.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "VN": {
+        "name": "Vietnam",
+        "native": "Việt Nam",
+        "phone": "84",
+        "continent": "AS",
+        "capital": "Hanoi",
+        "currency": "VND",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/VN.svg",
+        "languages": [
+            "vi"
+        ]
+    },
+    "VU": {
+        "name": "Vanuatu",
+        "native": "Vanuatu",
+        "phone": "678",
+        "continent": "OC",
+        "capital": "Port Vila",
+        "currency": "VUV",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/VU.svg",
+        "languages": [
+            "bi",
+            "en",
+            "fr"
+        ]
+    },
+    "WS": {
+        "name": "Samoa",
+        "native": "Samoa",
+        "phone": "685",
+        "continent": "OC",
+        "capital": "Apia",
+        "currency": "WST",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/WS.svg",
+        "languages": [
+            "sm",
+            "en"
+        ]
+    },
+    "XK": {
+        "name": "Kosovo",
+        "native": "Republika e Kosovës",
+        "phone": "3",
+        "continent": "EU",
+        "capital": "Pristina",
+        "currency": "EUR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/XK.svg",
+        "languages": [
+            "sq",
+            "sr"
+        ]
+    },
+    "YE": {
+        "name": "Yemen",
+        "native": "اليَمَن",
+        "phone": "967",
+        "continent": "AS",
+        "capital": "Sana'a",
+        "currency": "YER",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/YE.svg",
+        "languages": [
+            "ar"
+        ]
+    },
+    "ZA": {
+        "name": "South Africa",
+        "native": "South Africa",
+        "phone": "27",
+        "continent": "AF",
+        "capital": "Pretoria",
+        "currency": "ZAR",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/ZA.svg",
+        "languages": [
+            "af",
+            "en",
+            "nr",
+            "st",
+            "ss",
+            "tn",
+            "ts",
+            "ve",
+            "xh",
+            "zu"
+        ]
+    },
+    "ZM": {
+        "name": "Zambia",
+        "native": "Zambia",
+        "phone": "260",
+        "continent": "AF",
+        "capital": "Lusaka",
+        "currency": "ZMK",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/ZM.svg",
+        "languages": [
+            "en"
+        ]
+    },
+    "ZW": {
+        "name": "Zimbabwe",
+        "native": "Zimbabwe",
+        "phone": "263",
+        "continent": "AF",
+        "capital": "Harare",
+        "currency": "USD,ZAR,BWP,GBP,AUD,CNY,INR,JPY",
+        "flag":"http://aedemirsen.bilgimeclisi.com/country_flags/ZW.svg",
+        "languages": [
+            "en",
+            "sn",
+            "nd"
+        ]
+    }
+}
