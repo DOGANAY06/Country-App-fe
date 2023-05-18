@@ -3,13 +3,6 @@ import React, { useEffect } from "react";
 import { debounce } from "lodash";
 
 const Header = ({ setSearchText, searchText }) => {
-  useEffect(() => {
-    console.log(searchText);
-  }, [searchText]);
-
-  const handleSearchTextChange = debounce((value) => {
-    setSearchText(value);
-  }, 500); // Debounce delay (e.g., 500 milliseconds)
 
   return (
     <div className="header">
@@ -20,7 +13,7 @@ const Header = ({ setSearchText, searchText }) => {
         <input
           type="text"
           value={searchText}
-          onChange={(e) => handleSearchTextChange(e.target.value)}
+          onChange={(e) => setSearchText(e.target.value)}
           placeholder="Enter country name"
         />
       </div>

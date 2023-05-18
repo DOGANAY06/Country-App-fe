@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <Header setSearchText={setSearchText} searchText={searchText} />
       <Alt_Header />
-      {loading ? <Body countries={countries} /> : <div>Yükleniyor</div>}
+      {loading ? <Body countries={countries}  searchText={searchText}/> : <div>Yükleniyor</div>}
     </div>
   );
 }
