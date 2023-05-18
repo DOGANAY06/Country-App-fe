@@ -1,23 +1,11 @@
 import React from 'react';
 
 export default function Body({ countries, searchText }) {
-  
-  const [result, setResult] = React.useState(countries);
-  console.log('bodyde result', result)
-  React.useEffect( () => {
-    
-    if(searchText !== ''){
-      const filteredCountries = countries.filter( item => item.name.toLowerCase().includes(searchText.toLowerCase()))
-      setResult(filteredCountries)
-    }
-    // setResult()
-  }, [searchText])
-
   return (
     <div className="grid-container">
     {
-      result.length > 0 ? 
-      result.map((item, index) => {
+      countries.filter( item => item.name.toLowerCase().includes(searchText.toLowerCase())).length > 0 ? 
+      countries.filter( item => item.name.toLowerCase().includes(searchText.toLowerCase())).map((item, index) => {
         return (
           <div className="grid-item" key={index}>
             <img className="grid-item-image" src={item.flag} alt="{country.name}" />
