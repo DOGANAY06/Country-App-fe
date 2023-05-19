@@ -6,11 +6,10 @@ import { getAllCountriesApi } from "./services/services";
 import axios from "axios";
 
 
-
-
 function App() {
   const [countries, setCountries] = useState([]);
   const [searchText, setSearchText] = useState("");
+  const [sortOrder, setSortOrder] = useState('asc');
 
   const [loading, setLoading] = useState(false);
 
@@ -31,8 +30,9 @@ function App() {
     //proje açıldığında dönecek kısım
     <div className="App">
       <Header setSearchText={setSearchText} searchText={searchText} />
-      <Alt_Header />
-      {loading ? <Body countries={countries}  searchText={searchText}/> : <div>Yükleniyor</div>}
+      <Alt_Header sortOrder={sortOrder} setSortOrder={setSortOrder}  />
+      {loading ? <Body countries={countries}  searchText={searchText} sortOrder={sortOrder}/> :
+       <div>Yükleniyor</div>}
     </div>
   );
 }

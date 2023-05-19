@@ -21,11 +21,19 @@ const Header = ({ setSearchText, searchText }) => {
   );
 };
 
-export const Alt_Header = () => {
+export const Alt_Header = ({ sortOrder, setSortOrder }) => {
   return (
     <div className="panel">
       <Icon icon="material-symbols:grid-view" />
-      <Icon icon="mdi:sort" style={{ marginLeft: "500px" }} />
+      <Icon
+          icon="mdi:sort"
+          style={{ marginLeft: "500px", cursor: "pointer" }}
+          onClick={() => {
+            // Toggle the sort order
+            const newSortOrder = sortOrder === "asc" ? "desc" : "asc";
+            setSortOrder(newSortOrder);
+          }}
+        />
       <h6 style={{ marginRight: "50px" }}>Sort</h6>
       <Icon icon="material-symbols:filter-alt" />
       <h6 style={{ marginRight: "50px" }}>Filter</h6>
