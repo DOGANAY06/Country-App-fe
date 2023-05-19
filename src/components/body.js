@@ -4,12 +4,13 @@ export default function Body({ countries, searchText ,sortOrder  }) {
   const sortedCountries = countries
     .filter((item) => item.name.toLowerCase().includes(searchText.toLowerCase()))
     .sort((a, b) => {
-      if (sortOrder=== 'asc') {
-        console.log(sortOrder);
-        return a.countryCode.localeCompare(b.countryCode);
+      const phoneA = parseInt(a.phone);
+      const phoneB = parseInt(b.phone);
+
+      if (sortOrder === 'asc') {
+        return phoneA - phoneB;
       } else {
-        console.log(sortOrder);
-        return b.countryCode.localeCompare(a.countryCode);
+        return phoneB - phoneA;
       }
     });
 
@@ -22,6 +23,7 @@ export default function Body({ countries, searchText ,sortOrder  }) {
             <div className="grid-item" key={index}>
               <img className="grid-item-image" src={item.flag} alt="{country.name}" />
               <div className="grid-item">Country Code: {item.countryCode}</div>
+              <div className="grid-item">Phone Code: {item.phone}</div>
               <div className="grid-item">Country Name: {item.name}</div>
             </div>
           );
