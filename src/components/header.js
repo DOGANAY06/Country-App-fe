@@ -21,10 +21,18 @@ const Header = ({ setSearchText, searchText }) => {
   );
 };
 
-export const Alt_Header = ({ sortOrder, setSortOrder }) => {
+export const Alt_Header = ({ sortOrder, setSortOrder, isGridView, setIsGridView }) => {
+  const handleViewToggle = () => {
+    setIsGridView(!isGridView);
+  };
+
   return (
     <div className="panel">
-      <Icon icon="material-symbols:grid-view" />
+       {isGridView ? (
+        <Icon icon="dashicons:list-view" onClick={handleViewToggle} />
+      ) : (
+        <Icon icon="dashicons:grid-view" onClick={handleViewToggle} />
+      )}
       <Icon
           icon="mdi:sort"
           style={{ marginLeft: "500px", cursor: "pointer" }}

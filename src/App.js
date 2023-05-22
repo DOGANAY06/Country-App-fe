@@ -13,6 +13,8 @@ function App() {
 
   const [loading, setLoading] = useState(false);
 
+  const [isGridView, setIsGridView] = useState(false);  //grid view mi yoksa listview mi onu anlıyoruz
+
   const getAllCountries = async () => {
     const response = await getAllCountriesApi();
     setCountries(response);
@@ -30,8 +32,9 @@ function App() {
     //proje açıldığında dönecek kısım
     <div className="App">
       <Header setSearchText={setSearchText} searchText={searchText} />
-      <Alt_Header sortOrder={sortOrder} setSortOrder={setSortOrder}  />
-      {loading ? <Body countries={countries}  searchText={searchText} sortOrder={sortOrder}/> :
+      <Alt_Header sortOrder={sortOrder} setSortOrder={setSortOrder} 
+      isGridView={isGridView} setIsGridView={setIsGridView}  />
+      {loading ? <Body countries={countries} isGridView={isGridView} searchText={searchText} sortOrder={sortOrder}/> :
        <div>Yükleniyor</div>}
     </div>
   );
