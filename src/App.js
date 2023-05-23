@@ -3,7 +3,8 @@ import React, { useEffect, useState } from "react";
 import Body from "./components/body";
 import Header, { Alt_Header } from "./components/header";
 import { getAllCountriesApi } from "./services/services";
-import axios from "axios";
+import { BrowserRouter , Route, Routes } from "react-router-dom";
+import Countrydetail from "./components/countrydetail";
 
 
 function App() {
@@ -29,14 +30,22 @@ function App() {
   }, [countries]);
 
   return (
-    //proje açıldığında dönecek kısım
+    <BrowserRouter>
     <div className="App">
       <Header setSearchText={setSearchText} searchText={searchText} />
       <Alt_Header sortOrder={sortOrder} setSortOrder={setSortOrder} 
       isGridView={isGridView} setIsGridView={setIsGridView}  />
-      {loading ? <Body countries={countries} isGridView={isGridView} searchText={searchText} sortOrder={sortOrder}/> :
-       <div>Yükleniyor</div>}
+     {loading ? (
+          <Routes>
+          <Route path="/" element={<Body countries={countries} isGridView={isGridView} searchText={searchText} sortOrder={sortOrder} />} />
+          <Route path="country/:countryCode" element={<Countrydetail countries={countries}/>} />
+        </Routes>
+        ) : (
+        <div>Yükleniyor</div>
+        )}
     </div>
+    </BrowserRouter>
+  
   );
 }
 export default App;

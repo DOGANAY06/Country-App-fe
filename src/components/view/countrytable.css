@@ -1,0 +1,21 @@
+.country-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .country-table th,
+  .country-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .country-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .country-table img {
+    width: 30px;
+    height: 20px;
+    object-fit: cover;
+  }
+  

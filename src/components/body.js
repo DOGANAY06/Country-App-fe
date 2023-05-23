@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link,Outlet } from 'react-router-dom';
 
 export default function Body({ countries, searchText, sortOrder,isGridView }) {
   const sortedCountries = countries
@@ -18,16 +18,16 @@ export default function Body({ countries, searchText, sortOrder,isGridView }) {
     return (
       <div className={isGridView ? 'grid-container' : 'list-container'}>
         {sortedCountries.length > 0 ? (
-          sortedCountries.map((item, index) => (
-            <Link to={`${index}`} key={index} className={isGridView ? 'grid-item' : 'list-item'}>
-              {isGridView ? (
+          sortedCountries.map((item, index) => ( // Dizideki her bir öğe için bir döngü oluşturulur
+            <Link to={`country/${item.countryCode}`} key={index} className={isGridView ? 'grid-item' : 'list-item'}>
+              {isGridView ? ( // Eğer görünüm ızgara ise
                 <>
                   <img className="grid-item-image" src={item.flag} alt="{country.name}" />
                   <div className="grid-item">Country Code: {item.countryCode}</div>
                   <div className="grid-item">Phone Code: {item.phone}</div>
                   <div className="grid-item">Country Name: {item.name}</div>
                 </>
-              ) : (
+              ) : ( // Eğer görünüm liste ise
                 <div>
                   <img className="list-item-image" src={item.flag} alt="{country.name}" />
                   <div className="list-item-details">
@@ -38,8 +38,9 @@ export default function Body({ countries, searchText, sortOrder,isGridView }) {
                 </div>
               )}
             </Link>
+
           ))
-        ) : (
+        ) : ( // Eşleşen ülke yoksa
           <h1>Eşleşen Sonuç Yok</h1>
         )}
       </div>
