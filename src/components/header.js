@@ -1,6 +1,6 @@
 import { Icon } from "@iconify/react";
-import React, { useEffect } from "react";
-import { debounce } from "lodash";
+import { countBy, debounce } from "lodash";
+import React,{ useState } from "react";
 
 const Header = ({ setSearchText, searchText }) => {
 
@@ -21,32 +21,89 @@ const Header = ({ setSearchText, searchText }) => {
   );
 };
 
-export const Alt_Header = ({ sortOrder, setSortOrder, isGridView, setIsGridView }) => {
+export const Alt_Header = ({ sortOrder, setSortOrder, isGridView, setIsGridView, countries,onselect,
+  selectedCurrency, setSelectedCurrency,selectedPhone,setSelectedPhone,selectedContinent, setSelectedContinent
+}) => {
+  const [showFilters, setShowFilters] = useState(false);
+
   const handleViewToggle = () => {
     setIsGridView(!isGridView);
   };
 
+  const handleFilterToggle = () => {
+    setShowFilters(!showFilters);
+  };
+
+  const handleCurrencyChange = (e) => {
+    setSelectedCurrency(e.target.value);
+  };
+
+  const handlePhoneChange = (e) => {
+    setSelectedPhone(e.target.value);
+  };
+
+  const handleContinentChange = (e) => {
+    setSelectedContinent(e.target.value);
+  };
+
   return (
     <div className="panel">
-       {isGridView ? (
-        <Icon icon="dashicons:list-view" onClick={handleViewToggle} />
-      ) : (
-        <Icon icon="dashicons:grid-view" onClick={handleViewToggle} />
-      )}
-      <Icon
+      <div className="icon-container">
+        {isGridView ? (
+          <Icon icon="dashicons:list-view" onClick={handleViewToggle} />
+        ) : (
+          <Icon icon="dashicons:grid-view" onClick={handleViewToggle} />
+        )}
+      </div>
+      <div className="icon-container">
+        <Icon
           icon="mdi:sort"
-          style={{ marginLeft: "500px", cursor: "pointer" }}
+          style={{ cursor: "pointer" }}
           onClick={() => {
-            // Toggle the sort order
+            // Sıralama
             const newSortOrder = sortOrder === "asc" ? "desc" : "asc";
             setSortOrder(newSortOrder);
           }}
         />
-      <h6 style={{ marginRight: "50px" }}>Sort</h6>
-      <Icon icon="material-symbols:filter-alt" />
-      <h6 style={{ marginRight: "50px" }}>Filter</h6>
+        <h6 className="icon-text">Sort</h6>
+      </div>
+      <div className="icon-container">
+        <Icon icon="material-symbols:filter-alt" onClick={handleFilterToggle} />
+        <h6 className="icon-text">Filter</h6>
+      </div>
+      {showFilters && (
+        <div className="dropdown">
+          <select value={selectedCurrency} onChange={handleCurrencyChange}>
+            <option value="">Tüm Para Birimleri</option>
+            {Array.from(new Set(countries.map((country) => country.currency))).map((currency) => (
+              <option key={currency} value={currency}>
+                {currency}
+              </option>
+            ))}
+          </select>
+          <select value={selectedPhone} onChange={handlePhoneChange}>
+            <option value="">Tüm Telefon Kodları</option>
+            {Array.from(new Set(countries.map((country) => country.phone))).map((phoneCode) => (
+              <option key={phoneCode} value={phoneCode}>
+                {phoneCode}
+              </option>
+            ))}
+          </select>
+          <select value={selectedContinent} onChange={handleContinentChange}>
+            <option value="">Tüm Kıtalar</option>
+            {Array.from(new Set(countries.map((country) => country.continent))).map((continent) => (
+              <option key={continent} value={continent}>
+                {continent}
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
     </div>
-  );
+  );  
 };
+
+
+
 
 export default Header;

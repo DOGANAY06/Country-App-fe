@@ -17,6 +17,7 @@ export default function Countrydetail({ countries }) {
     try {
       await  deleteCountryApi(country.countryCode);
       navigate('/'); // Silme işlemi tamamlandıktan sonra anasayfaya yönlendirme
+      window.location.reload(); //sayfannın yenilenmesi için
     } 
    catch (error) {
       console.log('Silme işlemi başarısız:', error);
@@ -76,6 +77,7 @@ export default function Countrydetail({ countries }) {
             <p>Ülkeyi silmek istediğinizden emin misiniz?</p>
             <div className="modal-buttons">
               <button onClick={handleConfirmDelete}>Evet</button>
+              <br/>
               <button onClick={handleCancelDelete}>Hayır</button>
             </div>
           </div>
