@@ -68,7 +68,7 @@ export default function Countrydetail({ countries }) {
           </tr>
         </tbody>
       </table>
-      <button onClick={() => setShowModal(true)}>Sil</button>
+      <button className='button' onClick={() => setShowModal(true)}>Sil</button>
 
       {showModal && (
         <div className="modal">
@@ -76,9 +76,9 @@ export default function Countrydetail({ countries }) {
             <h3>Ülke Silme Onayı</h3>
             <p>Ülkeyi silmek istediğinizden emin misiniz?</p>
             <div className="modal-buttons">
-              <button onClick={handleConfirmDelete}>Evet</button>
+              <button className='button' onClick={handleConfirmDelete}>Evet</button>
               <br/>
-              <button onClick={handleCancelDelete}>Hayır</button>
+              <button className='button' onClick={handleCancelDelete}>Hayır</button>
             </div>
           </div>
         </div>

@@ -1,7 +1,5 @@
 import { Icon } from "@iconify/react";
-import { countBy, debounce } from "lodash";
-import React, { useContext, useState } from "react";
-import { AppContext } from "../context/appContext";
+import React, {  useState } from "react";
 
 const Header = ({ setSearchText, searchText }) => {
   return (
@@ -21,23 +19,13 @@ const Header = ({ setSearchText, searchText }) => {
   );
 };
 
-export const Alt_Header = ({
-  sortOrder,
-  setSortOrder,
-  isGridView,
-  setIsGridView,
-  countries,
+export const Alt_Header = ({ sortOrder, setSortOrder, isGridView, setIsGridView, countries,
+  selectedCurrency, setSelectedCurrency,selectedPhone,setSelectedPhone,selectedContinent, setSelectedContinent
 }) => {
   const [showFilters, setShowFilters] = useState(false);
-  const {
-    selectedCurrency,
-    setSelectedCurrency,
-    selectedPhone,
-    setSelectedPhone,
-    selectedContinent,
-    setSelectedContinent,
-  } = useContext(AppContext);
 
+
+  
   const handleViewToggle = () => {
     setIsGridView(!isGridView);
   };
@@ -46,16 +34,16 @@ export const Alt_Header = ({
     setShowFilters(!showFilters);
   };
 
-  const handleCurrencyChange = (value) => {
-    setSelectedCurrency(value);
+  const handleCurrencyChange = (e) => {
+    setSelectedCurrency(e.target.value);
   };
 
-  const handlePhoneChange = (value) => {
-    setSelectedPhone(value);
+  const handlePhoneChange = (e) => {
+    setSelectedPhone(e.target.value);
   };
 
-  const handleContinentChange = (value) => {
-    setSelectedContinent(value);
+  const handleContinentChange = (e) => {
+    setSelectedContinent(e.target.value);
   };
 
   return (
@@ -72,6 +60,7 @@ export const Alt_Header = ({
           icon="mdi:sort"
           style={{ cursor: "pointer" }}
           onClick={() => {
+            // Sıralama
             const newSortOrder = sortOrder === "asc" ? "desc" : "asc";
             setSortOrder(newSortOrder);
           }}
@@ -79,19 +68,14 @@ export const Alt_Header = ({
         <h6 className="icon-text">Sort</h6>
       </div>
       <div className="icon-container">
-        <Icon
-          icon="material-symbols:filter-alt"
-          onClick={handleFilterToggle}
-        />
+        <Icon icon="material-symbols:filter-alt" onClick={handleFilterToggle} />
         <h6 className="icon-text">Filter</h6>
       </div>
       {showFilters && (
         <div className="dropdown">
           <select value={selectedCurrency} onChange={handleCurrencyChange}>
             <option value="">Tüm Para Birimleri</option>
-            {Array.from(
-              new Set(countries.map((country) => country.currency))
-            ).map((currency) => (
+            {Array.from(new Set(countries.map((country) => country.currency))).map((currency) => (
               <option key={currency} value={currency}>
                 {currency}
               </option>
@@ -99,19 +83,15 @@ export const Alt_Header = ({
           </select>
           <select value={selectedPhone} onChange={handlePhoneChange}>
             <option value="">Tüm Telefon Kodları</option>
-            {Array.from(new Set(countries.map((country) => country.phone))).map(
-              (phoneCode) => (
-                <option key={phoneCode} value={phoneCode}>
-                  {phoneCode}
-                </option>
-              )
-            )}
+            {Array.from(new Set(countries.map((country) => country.phone))).map((phoneCode) => (
+              <option key={phoneCode} value={phoneCode}>
+                {phoneCode}
+              </option>
+            ))}
           </select>
           <select value={selectedContinent} onChange={handleContinentChange}>
             <option value="">Tüm Kıtalar</option>
-            {Array.from(
-              new Set(countries.map((country) => country.continent))
-            ).map((continent) => (
+            {Array.from(new Set(countries.map((country) => country.continent))).map((continent) => (
               <option key={continent} value={continent}>
                 {continent}
               </option>
@@ -120,7 +100,7 @@ export const Alt_Header = ({
         </div>
       )}
     </div>
-  );
+  );  
 };
 
 export default Header;

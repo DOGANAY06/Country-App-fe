@@ -70,8 +70,22 @@
   border-radius: 5px;
 }
 
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-text {
+  margin-left: 4px; /* İstenilen boşluk miktarını ayarlayabilirsiniz */
+}
+
 .grid-item-image {
   width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+.list-item-image{
+  width: 75px;
   height: auto;
   margin-right: 10px;
 }

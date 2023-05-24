@@ -8,14 +8,22 @@ import Countrydetail from "./components/countrydetail";
 import { AppProvider } from "./context/appContext";
 
 
+
 function App() {
   const [countries, setCountries] = useState([]);
   const [searchText, setSearchText] = useState("");
   const [sortOrder, setSortOrder] = useState('asc');
 
+ const [filteredCountries, setFilteredCountries] = useState(countries); // State to store the filtered countries
+ 
+   //filter işlemi için kısım 
+   const [selectedCurrency, setSelectedCurrency] = useState('');
+   const [selectedPhone, setSelectedPhone] = useState('');
+   const [selectedContinent, setSelectedContinent] = useState('');
+
   const [loading, setLoading] = useState(false);
 
-  const [isGridView, setIsGridView] = useState(false);  //grid view mi yoksa listview mi onu anlıyoruz
+  const [isGridView, setIsGridView] = useState(true);  //grid view mi yoksa listview mi onu anlıyoruz
 
   const getAllCountries = async () => {
     const response = await getAllCountriesApi();
@@ -36,7 +44,11 @@ function App() {
     <div className="App">
       <Header setSearchText={setSearchText} searchText={searchText} />
       <Alt_Header sortOrder={sortOrder} setSortOrder={setSortOrder} 
-      isGridView={isGridView} setIsGridView={setIsGridView}  />
+      isGridView={isGridView} setIsGridView={setIsGridView} 
+      countries={countries} selectedCurrency={selectedCurrency} setSelectedCurrency={setSelectedCurrency}
+      selectedPhone={selectedPhone} setSelectedPhone={setSelectedPhone} selectedContinent={selectedContinent}
+      setSelectedContinent={setSelectedContinent} filteredCountries={filteredCountries} setFilteredCountries={setFilteredCountries}
+      />
      {loading ? (
           <Routes>
           <Route path="/" element={<Body countries={countries} isGridView={isGridView} searchText={searchText} 

@@ -14,27 +14,16 @@ export const AppProvider = ({ children }) => {
   const [selectedPhone, setSelectedPhone] = useState(defaultPhone);
   const [selectedContinent, setSelectedContinent] = useState(defaultContinent);
 
-  // Durumları güncellemek için fonksiyonları tanımladım
-  const handleCurrencyChange = (value) => {
-    setSelectedCurrency(value);
-  };
-
-  const handlePhoneChange = (value) => {
-    setSelectedPhone(value);
-  };
-
-  const handleContinentChange = (value) => {
-    setSelectedContinent(value);
-  };
+  
 
   // Context değerlerini paketledim kullanmak için
   const contextValues = {
     selectedCurrency,
-    handleCurrencyChange,
+    setSelectedCurrency,
     selectedPhone,
-    handlePhoneChange,
+    setSelectedPhone,
     selectedContinent,
-    handleContinentChange,
+    setSelectedContinent,
   };
 
   // Çocuk bileşenlere context değerlerini aktardım

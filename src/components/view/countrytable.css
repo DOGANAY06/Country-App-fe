@@ -1,21 +1,35 @@
 .country-table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .country-table th,
-  .country-table td {
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
-  
-  .country-table th {
-    background-color: #f0f0f0;
-  }
-  
-  .country-table img {
-    width: 30px;
-    height: 20px;
-    object-fit: cover;
-  }
-  
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.country-table th,
+.country-table td {
+  padding: 4.25px;
+  border: 1px solid #ccc;
+}
+
+.country-table th {
+  background-color: #f0f0f0;
+}
+
+.country-table img {
+  width: 30px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #98cdee;
+  margin-top: 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #dd1010;
+}

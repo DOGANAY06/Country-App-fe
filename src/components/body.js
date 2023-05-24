@@ -1,19 +1,12 @@
-import React from 'react';
 import { Link,Outlet } from 'react-router-dom';
+import React, { useContext} from "react";
 
 export default function Body({ countries, searchText, sortOrder,isGridView,
-  selectedCurrency,setSelectedCurrency,selectedPhone,setSelectedPhone,selectedContinent,setSelectedContinent
 }) {
-  const filteredCountries = countries.filter((item) => {
-    const currencyMatch = selectedCurrency === '' || item.currency === selectedCurrency;
-    const phoneMatch = selectedPhone === '' || item.phone === selectedPhone;
-    const continentMatch = selectedContinent === '' || item.continent === selectedContinent;
-
-    return currencyMatch || phoneMatch || continentMatch;
-  });
 
   const sortedCountries = countries
     .filter((item) => item.name.toLowerCase().includes(searchText.toLowerCase()))
+    .filter((item) => item.countryCode.toLowerCase().includes(searchText.toLowerCase()))
     .sort((a, b) => {
       const phoneA = parseInt(a.phone);
       const phoneB = parseInt(b.phone);
