@@ -24,6 +24,7 @@ export const Alt_Header = ({ sortOrder, setSortOrder, isGridView, setIsGridView,
 }) => {
   const [showFilters, setShowFilters] = useState(false);
 
+  
 
   
   const handleViewToggle = () => {

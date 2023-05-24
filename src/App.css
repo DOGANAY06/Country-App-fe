@@ -52,6 +52,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
   gap: 20px;
 }
 

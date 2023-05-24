@@ -51,9 +51,14 @@ function App() {
       />
      {loading ? (
           <Routes>
-          <Route path="/" element={<Body countries={countries} isGridView={isGridView} searchText={searchText} 
+          <Route path="/" element={<Body 
+          countries={countries} selectedCurrency={selectedCurrency}
+          selectedPhone={selectedPhone}
+          selectedContinent={selectedContinent} 
+          isGridView={isGridView} searchText={searchText} 
           sortOrder={sortOrder} />} />
-          <Route path="country/:countryCode" element={<Countrydetail countries={countries}/>} />
+          <Route path="country/:countryCode" element={<Countrydetail 
+          countries={countries}/>} />
         </Routes>
         ) : (
         <div>Yükleniyor</div>

@@ -1,12 +1,20 @@
 import { Link,Outlet } from 'react-router-dom';
 import React, { useContext} from "react";
 
-export default function Body({ countries, searchText, sortOrder,isGridView,
+export default function Body({ countries, searchText, sortOrder,isGridView,selectedCurrency,
+  selectedPhone,selectedContinent
 }) {
-
+ 
   const sortedCountries = countries
-    .filter((item) => item.name.toLowerCase().includes(searchText.toLowerCase()))
-    .filter((item) => item.countryCode.toLowerCase().includes(searchText.toLowerCase()))
+    .filter(
+      (item) =>
+        item.name.toLowerCase().includes(searchText.toLowerCase()) ||
+        item.countryCode.toLowerCase().includes(searchText.toLowerCase()) 
+        //selectedCurrency ? item.currency === selectedCurrency : true ||
+        //selectedPhone ? item.phone === selectedPhone : true ||
+        //selectedContinent ? item.continent === selectedContinent : true
+        
+    )
     .sort((a, b) => {
       const phoneA = parseInt(a.phone);
       const phoneB = parseInt(b.phone);
@@ -20,7 +28,7 @@ export default function Body({ countries, searchText, sortOrder,isGridView,
 
     return (
       <div className={isGridView ? 'grid-container' : 'list-container'}>
-        {sortedCountries.length > 0 ? (
+        {sortedCountries.length > 0 || countries ?  (
           sortedCountries.map((item, index) => ( // Dizideki her bir öğe için bir döngü oluşturulur
             <Link to={`country/${item.countryCode}`} key={index} className={isGridView ? 'grid-item' : 'list-item'}>
               {isGridView ? ( // Eğer görünüm ızgara ise
