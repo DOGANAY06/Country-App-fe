@@ -9,7 +9,6 @@ export default function Body({
   selectedCurrency,
   selectedPhone,
   selectedContinent,
-  handleFilterApply,
 }) {
   const filteredCountries = countries.filter((item) => {
     //FİLTRELEME İŞLEMLERİ 5 AYRI KISIMDAN OLUŞUYOR 

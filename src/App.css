@@ -109,13 +109,14 @@
 }
 
 .dropdown select {
-  width: 200px;
+  width: 120px;
   padding: 8px;
   border: none;
   border-radius: 4px;
   font-size: 16px;
   background-color: #fff;
   margin-right: 10px;
+  margin-top: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
 }

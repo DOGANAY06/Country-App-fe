@@ -50,7 +50,7 @@ export const Alt_Header = ({
     setShowFilters(false);
   };
 
-  //Bu itemlar değiştimi onu kontrol eder.
+  //Bu itemlar değiştimi onu kontrol eder
   const handleCurrencyChange = (e) => {
     setSelectedCurrency(e.target.value);
   };
@@ -106,7 +106,7 @@ export const Alt_Header = ({
               </option>
             ))}
           </select>
-          <select value={selectedContinent} onChange={handleContinentChange}>
+          <select  value={selectedContinent} onChange={handleContinentChange}>
             <option value="">Tüm Kıtalar</option>
             {Array.from(new Set(countries.map((country) => country.continent))).map((continent) => (
               <option key={continent} value={continent}>

@@ -10,11 +10,11 @@ import { AppProvider } from "./context/appContext";
 
 
 function App() {
-  const [countries, setCountries] = useState([]);
+  const [countries, setCountries] = useState([]); //ülkeleri apidan getiriyor
   const [searchText, setSearchText] = useState("");
   const [sortOrder, setSortOrder] = useState('asc');
 
- const [filteredCountries, setFilteredCountries] = useState(countries); // State to store the filtered countries
+ const [filteredCountries, setFilteredCountries] = useState(countries); //Filtrelenen ülkeleri depolamak için durum
  
    //filter işlemi için kısım 
    const [selectedCurrency, setSelectedCurrency] = useState('');
@@ -26,7 +26,7 @@ function App() {
   const [isGridView, setIsGridView] = useState(true);  //grid view mi yoksa listview mi onu anlıyoruz
 
 
-  const getAllCountries = async () => {
+  const getAllCountries = async () => { //asenkron olarak apidan tüm ülkelerin gelme işlevi
     const response = await getAllCountriesApi();
     setCountries(response);
   };
@@ -35,7 +35,7 @@ function App() {
     getAllCountries();
   }, []);
 
-  useEffect(() => {
+  useEffect(() => { //ülkeler geldi mi yani uzunluğu 0 dan büyük olmalı geldiyse gelmediyse yükleniyor yazıcak
     countries.length > 0 && setLoading(true);
   }, [countries]);
 
