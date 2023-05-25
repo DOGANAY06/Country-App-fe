@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+Country App Projesinin Frontent  kısmıdır.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu bölümde projemiz 3 ana componentten 1 detail componentinden oluşmaktadır. 
+Anasayfada bulunan componentler.
+1- Header 
+2- Alt_header
+3- Body
+![ulkefoto1](https://github.com/DOGANAY06/Country-App-fe/assets/46906505/5990d4d9-5857-4849-bd04-375e8de6fdc4)
 
-## Available Scripts
 
-In the project directory, you can run:
+Projede verilerimiz MySql veritabanından backend uygulamamıza atılan sorgu üzerinden çekilmektedir. Burada sorgu yaparken axios modülü kullanılmıştır.
+Sorgu işlemlerimiz services klasörü altında services.js de bulunmaktadır.
+1-Header kısmında bulunan search bar sayesinde ülke koduna (countryCode) ve ülke adına (name) göre arama yapmaktadır.
+![ulkefoto3](https://github.com/DOGANAY06/Country-App-fe/assets/46906505/1f1d5c0c-9d1a-4d70-8fb5-9b0d65e0f3f2)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2-Alt_header da bulunan iconlarımız sırasıyla 
+2a-> Grid ve list görünümüne geçmesini sağlar sayfanın 
+![ulkegorunum](https://github.com/DOGANAY06/Country-App-fe/assets/46906505/2ef1328f-ea8b-4d5b-9aad-1d372599a179)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+2b-> Sort iconu alfabetik olarak azalan artan sıralama yapar ülke telefon numarası (phone) göre 
+![ulkesiralama](https://github.com/DOGANAY06/Country-App-fe/assets/46906505/cfc3953d-96fd-4dc3-8a73-8b705c35350d)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+2c-> Ülkeleri filter özelliğine basınca bir dropdown list açılır burada seçilen continent, currency, phone verisine göre filtreleme yapar.
+![filtrelemeislemi](https://github.com/DOGANAY06/Country-App-fe/assets/46906505/e0fe85b0-2512-4c2e-b568-08cb0c5342cc)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Body sayfasında ülkelerin üzerine tıklandığında countrydetail componentine gider ve orada ülkenin bilgileri yer alır. Kullanıcı isterse burada ülkeyi silebilir.
+Silinen ülke aynı zamanda MySql veritabanından da silinir arka planda çalışan deletemapping işlemi ile.
+![ulkedetail](https://github.com/DOGANAY06/Country-App-fe/assets/46906505/535bda33-760b-468e-ab12-818f6ccd201e)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Projemizin içinde bulunan .dockerignore , dockerfile, docker-compose.yml gibi dosyalar react js uygulamamızın dockerda container oluşturup orada saklanması için.
+Burada docker container oluşturmak için terminale şu komutu girmeniz yeterlidir.
+docker-compose up --build 
