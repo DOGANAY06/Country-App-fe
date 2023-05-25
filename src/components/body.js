@@ -20,7 +20,7 @@ export default function Body({
 
       //3,4,5 filtreleme özellikleri eşleşiyor mu ? 
     const matchesCurrency = selectedCurrency && item.currency === selectedCurrency;
-
+ 
     const matchesPhone = selectedPhone && item.phone === selectedPhone;
 
     const matchesContinent = selectedContinent && item.continent === selectedContinent;
