@@ -125,19 +125,7 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.dropdown::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  width: 8px;
-  height: 8px;
-  border-left: 1px solid #000;
-  border-bottom: 1px solid #000;
-  background-color: #fff;
-  transform: rotate(-45deg);
-}
+
 
 .dropdown select:focus {
   outline: none;

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 export default function Body({
   countries,
   searchText,
@@ -10,6 +11,9 @@ export default function Body({
   selectedPhone,
   selectedContinent,
 }) {
+  const selectedPhoneInt = parseInt(selectedPhone); //seçtiğimiz phone bilgisi veritabanında integer olarak kayıtlı
+  //bu yüzden bizde integer çevirdik 
+
   const filteredCountries = countries.filter((item) => {
     //FİLTRELEME İŞLEMLERİ 5 AYRI KISIMDAN OLUŞUYOR 
     //1,2-) Ülke adı ve ülke koduna göre arama bu search text üzerinden yapılıyor
@@ -17,11 +21,11 @@ export default function Body({
     const includesSearchText =
       item.name.toLowerCase().includes(searchText.toLowerCase()) ||
       item.countryCode.toLowerCase().includes(searchText.toLowerCase());
-
+      
       //3,4,5 filtreleme özellikleri eşleşiyor mu ? 
     const matchesCurrency = selectedCurrency && item.currency === selectedCurrency;
  
-    const matchesPhone = selectedPhone && item.phone === selectedPhone;
+    const matchesPhone = selectedPhoneInt && item.phone === selectedPhoneInt;
 
     const matchesContinent = selectedContinent && item.continent === selectedContinent;
 
@@ -30,10 +34,11 @@ export default function Body({
     return (
       includesSearchText &&
       (selectedCurrency ? matchesCurrency : true) &&
-      (selectedPhone ? matchesPhone : true) &&
+      (selectedPhoneInt ? matchesPhone : true) &&
       (selectedContinent ? matchesContinent : true)
     );
   });
+  //Burada herhangi bir filtreleme işlemi uygulanmıssa anlamına gelir
 
   const sortedCountries = filteredCountries.sort((a, b) => {
     const phoneA = parseInt(a.phone);

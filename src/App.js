@@ -31,6 +31,8 @@ function App() {
     setCountries(response);
   };
 
+  
+
   useEffect(() => {
     getAllCountries();
   }, []);

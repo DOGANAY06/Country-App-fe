@@ -49,7 +49,7 @@ export const Alt_Header = ({
     setSelectedContinent("");
     setShowFilters(false);
   };
-
+  
   //Bu itemlar değiştimi onu kontrol eder
   const handleCurrencyChange = (e) => {
     setSelectedCurrency(e.target.value);
@@ -58,7 +58,7 @@ export const Alt_Header = ({
   const handlePhoneChange = (e) => {
     setSelectedPhone(e.target.value);
   };
-
+  
   const handleContinentChange = (e) => {
     setSelectedContinent(e.target.value);
   };
