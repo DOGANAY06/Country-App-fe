@@ -12,7 +12,7 @@ const Header = ({ setSearchText, searchText }) => {
           type="text"
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
-          placeholder="Enter country name"
+          placeholder="Ülke adını ya da countryCode giriniz "
         />
       </div>
     </div>
