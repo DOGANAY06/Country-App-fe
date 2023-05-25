@@ -19,14 +19,21 @@ const Header = ({ setSearchText, searchText }) => {
   );
 };
 
-export const Alt_Header = ({ sortOrder, setSortOrder, isGridView, setIsGridView, countries,
-  selectedCurrency, setSelectedCurrency,selectedPhone,setSelectedPhone,selectedContinent, setSelectedContinent
+export const Alt_Header = ({
+  sortOrder,
+  setSortOrder,
+  isGridView,
+  setIsGridView,
+  countries,
+  selectedCurrency,
+  setSelectedCurrency,
+  selectedPhone,
+  setSelectedPhone,
+  selectedContinent,
+  setSelectedContinent
 }) => {
   const [showFilters, setShowFilters] = useState(false);
 
-  
-
-  
   const handleViewToggle = () => {
     setIsGridView(!isGridView);
   };
@@ -35,6 +42,15 @@ export const Alt_Header = ({ sortOrder, setSortOrder, isGridView, setIsGridView,
     setShowFilters(!showFilters);
   };
 
+  //vazgeçme işlemidir işlemleri siler ve kapatır filter kısmını
+  const handleFilterCancel = () => {
+    setSelectedCurrency("");
+    setSelectedPhone("");
+    setSelectedContinent("");
+    setShowFilters(false);
+  };
+
+  //Bu itemlar değiştimi onu kontrol eder.
   const handleCurrencyChange = (e) => {
     setSelectedCurrency(e.target.value);
   };
@@ -98,10 +114,13 @@ export const Alt_Header = ({ sortOrder, setSortOrder, isGridView, setIsGridView,
               </option>
             ))}
           </select>
+          <div className="filter-buttons">
+            <button onClick={handleFilterCancel}>Vazgeç</button>
+          </div>
         </div>
       )}
     </div>
-  );  
+  );
 };
 
 export default Header;

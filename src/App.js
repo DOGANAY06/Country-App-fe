@@ -25,6 +25,7 @@ function App() {
 
   const [isGridView, setIsGridView] = useState(true);  //grid view mi yoksa listview mi onu anlıyoruz
 
+
   const getAllCountries = async () => {
     const response = await getAllCountriesApi();
     setCountries(response);
