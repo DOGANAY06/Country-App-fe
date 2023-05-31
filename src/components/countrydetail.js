@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import styles from './view/countrytable.css';
 import { deleteCountryApi } from "../services/services.js";
 
 export default function Countrydetail({ countries }) {

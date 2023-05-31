@@ -1,5 +1,7 @@
 import React from "react";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { PaginationContext } from "../context/PaginationContext";
 
 
 export default function Body({
@@ -13,6 +15,9 @@ export default function Body({
 }) {
   const selectedPhoneInt = parseInt(selectedPhone); //seçtiğimiz phone bilgisi veritabanında integer olarak kayıtlı
   //bu yüzden bizde integer çevirdik 
+
+   const { currentPage, totalPages, nextPage, prevPage } = useContext(PaginationContext);
+  //sayfa değiştirme pagination işlemleriyle alakalı kısım 
 
   const filteredCountries = countries.filter((item) => {
     //FİLTRELEME İŞLEMLERİ 5 AYRI KISIMDAN OLUŞUYOR 
@@ -50,6 +55,8 @@ export default function Body({
       return phoneB - phoneA;
     }
   });
+
+ 
 
   return (
     <div className={isGridView ? "grid-container" : "list-container"}>
@@ -90,6 +97,18 @@ export default function Body({
       ) : (
         <h1>Eşleşen Sonuç Yok</h1>
       )}
+       {/* Pagination kontrollerini burada yapıyorum */}
+       <div>
+        <button disabled={currentPage === 1} onClick={() => prevPage()}>
+          Önceki Sayfa
+        </button>
+        <span>
+          Sayfa {currentPage} / {totalPages}
+        </span>
+        <button disabled={currentPage === totalPages} onClick={() => nextPage()}>
+          Sonraki Sayfa
+        </button>
+      </div>
     </div>
   );
 }

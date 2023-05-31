@@ -9,6 +9,8 @@ const getAllCountriesApi =async()=>{
    return response
 }
 
+
+
 const deleteCountryApi = async (countryCode) => {
     try {
       const response = await axios.delete(`http://localhost:8080/countries/countrycode/${countryCode}`);

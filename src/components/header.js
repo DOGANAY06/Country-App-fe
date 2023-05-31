@@ -1,5 +1,7 @@
 import { Icon } from "@iconify/react";
 import React, {  useState } from "react";
+import { useContext } from "react";
+import { PaginationContext } from "../context/PaginationContext";
 
 const Header = ({ setSearchText, searchText }) => {
   return (
@@ -24,7 +26,7 @@ export const Alt_Header = ({
   setSortOrder,
   isGridView,
   setIsGridView,
-  countries,
+  //countries,
   selectedCurrency,
   setSelectedCurrency,
   selectedPhone,
@@ -33,6 +35,8 @@ export const Alt_Header = ({
   setSelectedContinent
 }) => {
   const [showFilters, setShowFilters] = useState(false);
+
+  const {countries} = useContext(PaginationContext); 
 
   const handleViewToggle = () => {
     setIsGridView(!isGridView);
@@ -58,7 +62,7 @@ export const Alt_Header = ({
   const handlePhoneChange = (e) => {
     setSelectedPhone(e.target.value);
   };
-  
+  console.log(setSelectedPhone);
   const handleContinentChange = (e) => {
     setSelectedContinent(e.target.value);
   };
